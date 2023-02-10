@@ -60,7 +60,6 @@ dir.create(pasta_detalhes, showWarnings = FALSE)
 # baixar os detalhes em si
 tjsp_baixar_cposg(processos = tabela$processo, diretorio = pasta_detalhes)
 
-
 # Ler as informações adicionais -------------------------------------------
 
 # ler as partes
