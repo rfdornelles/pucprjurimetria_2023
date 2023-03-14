@@ -141,19 +141,19 @@ remotes::install_github("abjur/abjutils")
 # Tendo tudo isso em mente, o raciocínio foi:
 
 # 1.  Preciso que as expressões "HC" e "165.704" estejam presentes:
-# pesquisando por `HC 165704` aparecem apenas 24 decisões, muito pouco.
+# pesquisando por `HC 165704` aparecem apenas 93 decisões, que pode ser pouco.
 
-# 2.  Vou tentar então apenas o número: "`165704`". Aparecem apenas 27 decisões.
+# 2.  Vou tentar então apenas o número: "`165704`". Aparecem 98 decisões.
 
 # 3.  O problema pode ser que ao se referir a ela, algumas mencionem o "." (ponto)
 # e outras não. Eu poderia então usar o operador OU (`165704 OU 165.704`):
-# já sobe para 148, bem melhor.
+# já sobe para 390, bem melhor.
 
 # 4.  Eu também poderia acrescentar a expressão que remeta a "habeas corpus"
 # Por exemplo, "HC" ou usar "habeas corpus" por extenso.
 # Ou, ainda, usando os operadores de busca, tentar algo como "`hc OU "habeas corpus"`
 # Fazendo o teste com`(165704 OU 165.704) E (hc OU "habeas corpus")`
-# tenho 143 decisões.
+# tenho 384 decisões.
 
 # Nesse caso, vou optar por fazer a pesquisa com a expressão `165704 OU 165.704`
 # do item 3, que pareceu mais adequada.
@@ -268,7 +268,7 @@ write_xlsx(tabela, path = "data-raw/tabela_basica_jurisprudencia.xlsx")
 write_rds(tabela, file = "data-raw/base_original.rds")
 
 # E, para carregar:
-read_rds("data/base_original.rds")
+#tabela <- read_rds("data-raw/base_original.rds")
 
 # Lembrando que, para poder usar na memória devemos salvar em um objeto:
 # base <- read_rds("data/base_original.rds")
@@ -378,7 +378,7 @@ andamentos
 # os arquivos .pdf.
 
 # ler o dispositivo das decisões
-dispositivo <- tjsp_ler_dispositivo(diretorio = pasta_detalhes)
+dispositivo <- tjsp_ler_decisoes_cposg(diretorio = pasta_detalhes)
 
 # ver o resultado
 dispositivo
@@ -431,7 +431,8 @@ tjsp_baixar_acordaos_cposg(
 # sazonalidade? Há algum pico?
 # 4.  Quanto tempo essas decisões tramitam?
 # 5.  Há liminar? Em quais? A liminar tende a ser confirmada?
-# 6.  A audiência pública ocorrida em 14/06 mudou as decisões que vieram depois?
+# 6.  A audiência pública ocorrida em 14/06/21 mudou as decisões que vieram
+# depois?
 # 7.  É possível agrupar comarcas em razão do peril das decisões proferidas?
 # 8.  etc
 

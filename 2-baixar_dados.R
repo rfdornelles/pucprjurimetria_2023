@@ -30,7 +30,7 @@ dir.create(pasta, showWarnings = FALSE)
 # Comando para baixar os dados gerais da consulta
 
 tjsp_baixar_cjsg(livre = exp,
-                 classe = "307",
+                 #classe = "307",
                  assunto = "",
                  orgao_julgador = "",
                  inicio = "", # dd/mm/aaaa
@@ -69,7 +69,7 @@ partes <- tjsp_ler_partes(diretorio = pasta_detalhes)
 andamentos <- ler_movimentacao_cposg(diretorio = pasta_detalhes)
 
 # ler o dispositivo das decisões
-dispositivo <- tjsp_ler_dispositivo(diretorio = pasta_detalhes)
+dispositivo <- tjsp_ler_decisoes_cposg(diretorio = pasta_detalhes)
 
 
 # Exportar ----------------------------------------------------------------
@@ -85,3 +85,5 @@ write_rds(partes, paste0(pasta, "/partes.rds"))
 
 # dispositivo
 write_rds(dispositivo, paste0(pasta, "/dispositivo.rds"))
+
+beepr::beep()
