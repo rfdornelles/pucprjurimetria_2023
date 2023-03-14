@@ -86,4 +86,3 @@ write_rds(partes, paste0(pasta, "/partes.rds"))
 # dispositivo
 write_rds(dispositivo, paste0(pasta, "/dispositivo.rds"))
 
-beepr::beep()

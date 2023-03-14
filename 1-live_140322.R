@@ -475,7 +475,11 @@ dispositivo %>%
 
 
 tabela %>%
-  left_join(dispositivo) %>%
+  left_join(dispositivo %>%
+              mutate(
+                data_julgamento = dmy(data_julgamento),
+                processo = stringr::str_replace_all(processo, "[^0-9]", "")),
+            by = "processo") %>%
   filter(classe == "Habeas Corpus Criminal", !is.na(dispositivo)) %>%
   mutate(
     # avaliar qual foi o resultado da decisão
@@ -494,5 +498,6 @@ tabela %>%
        title = "Decisões do TJ-SP sobre aplicação do HC Coletivo",
        subtitle = "Distribuição por Câmara de Direito Criminal") +
   theme(axis.text.x = element_text(angle = 90))
+
 
 ### FIM?
