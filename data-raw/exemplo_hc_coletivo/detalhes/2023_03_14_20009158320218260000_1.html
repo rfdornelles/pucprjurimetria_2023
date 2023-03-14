@@ -1,0 +1,2210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Portal de Serviços e-SAJ</title>
+<!-- Adicionado aqui para não impactar mobile --><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"b61bdf610d",applicationID:"218539834"};;(()=>{var e,t,r={9071:(e,t,r)=>{"use strict";r.d(t,{I:()=>n});var n=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(n=+i[1])},6562:(e,t,r)=>{"use strict";r.d(t,{P_:()=>v,Mt:()=>h,C5:()=>d,DL:()=>y,OP:()=>R,lF:()=>L,Yu:()=>A,Dg:()=>p,CX:()=>f,GE:()=>w,sU:()=>M});var n={};r.r(n),r.d(n,{agent:()=>x,match:()=>O,version:()=>T});var i=r(6797),o=r(909),a=r(8610);class s{constructor(e,t){try{if(!e||"object"!=typeof e)return(0,a.Z)("New setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,a.Z)("Setting a Configurable requires a model to set its initial properties");Object.assign(this,t),Object.entries(e).forEach((e=>{let[t,r]=e;const n=(0,o.q)(t);n.length&&r&&"object"==typeof r&&n.forEach((e=>{e in r&&((0,a.Z)('"'.concat(e,'" is a protected attribute and can not be changed in feature ').concat(t,".  It will have no effect.")),delete r[e])})),this[t]=r}))}catch(e){(0,a.Z)("An error occured while setting a Configurable",e)}}}const c={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},u={};function d(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!u[e])throw new Error("Info for ".concat(e," was never set"));return u[e]}function f(e,t){if(!e)throw new Error("All info objects require an agent identifier!");u[e]=new s(t,c),(0,i.Qy)(e,u[e],"info")}const l={allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},spa:{enabled:!0,harvestTimeSeconds:10}},g={};function v(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");g[e]=new s(t,l),(0,i.Qy)(e,g[e],"config")}function h(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=v(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const m={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},b={};function y(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!b[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return b[e]}function w(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");b[e]=new s(t,m),(0,i.Qy)(e,b[e],"loader_config")}const A=(0,i.mF)().o;var E=r(2053),x=null,T=null;if(navigator.userAgent){var _=navigator.userAgent,D=_.match(/Version\/(\S+)\s+Safari/);D&&-1===_.indexOf("Chrome")&&-1===_.indexOf("Chromium")&&(x="Safari",T=D[1])}function O(e,t){if(!x)return!1;if(e!==x)return!1;if(!t)return!0;if(!T)return!1;for(var r=T.split("."),n=t.split("."),i=0;i<n.length;i++)if(n[i]!==r[i])return!1;return!0}var j=r(5526),k=r(2374);const P="NRBA_SESSION_ID";function S(){if(!k.il)return null;try{let e;return null===(e=window.sessionStorage.getItem(P))&&(e=(0,j.ky)(16),window.sessionStorage.setItem(P,e)),e}catch(e){return null}}var I=r(8226);const C=e=>({customTransaction:void 0,disabled:!1,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:(0,E.yf)(),onerror:void 0,origin:""+k._A.location,ptid:void 0,releaseIds:{},sessionId:1==h(e,"privacy.cookies_enabled")?S():null,xhrWrappable:"function"==typeof k._A.XMLHttpRequest?.prototype?.addEventListener,userAgent:n,version:I.q}),N={};function R(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!N[e])throw new Error("Runtime for ".concat(e," was never set"));return N[e]}function M(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");N[e]=new s(t,C(e)),(0,i.Qy)(e,N[e],"runtime")}function L(e){return function(e){try{const t=d(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},8226:(e,t,r)=>{"use strict";r.d(t,{q:()=>n});const n="1227.PROD"},9557:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(8610);const i={agentIdentifier:""};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},4329:(e,t,r)=>{"use strict";r.d(t,{L:()=>d,R:()=>c});var n=r(3752),i=r(7022),o=r(4045),a=r(2325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const r=Array.from(s[e]);function a(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)f(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((e=>{let[t]=e;a(t)})))}function f(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},3752:(e,t,r)=>{"use strict";r.d(t,{ee:()=>u});var n=r(6797),i=r(3916),o=r(7022),a=r(6562),s="nr@context";let c=(0,n.fP)();var u;function d(){}function f(){return new d}function l(){u.aborted=!0,u.backlog={}}c.ee?u=c.ee:(u=function e(t,r){var n={},c={},g={},v=!1;try{v=16===r.length&&(0,a.OP)(r).isolatedBacklog}catch(e){}var p={on:b,addEventListener:b,removeEventListener:y,emit:m,get:A,listeners:w,context:h,buffer:E,abort:l,aborted:!1,isBuffering:x,debugId:r,backlog:v?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return p;function h(e){return e&&e instanceof d?e:e?(0,i.X)(e,s,f):f()}function m(e,r,n,i,o){if(!1!==o&&(o=!0),!u.aborted||i){t&&o&&t.emit(e,r,n);for(var a=h(n),s=w(e),d=s.length,f=0;f<d;f++)s[f].apply(a,r);var l=T()[c[e]];return l&&l.push([p,e,r,a]),a}}function b(e,t){n[e]=w(e).concat(t)}function y(e,t){var r=n[e];if(r)for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)}function w(e){return n[e]||[]}function A(t){return g[t]=g[t]||e(p,t)}function E(e,t){var r=T();p.aborted||(0,o.D)(e,(function(e,n){t=t||"feature",c[n]=t,t in r||(r[t]=[])}))}function x(e){return!!T()[c[e]]}function T(){return p.backlog}}(void 0,"globalEE"),c.ee=u)},9252:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(3752).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4045:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(9252);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},8544:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(2374);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];window.addEventListener(e,t,a(r))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];document.addEventListener(e,t,a(r))}},5526:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>i,ky:()=>o});var n=r(2374);function i(){var e=null,t=0,r=n._A?.crypto||n._A?.msCrypto;function i(){return e?15&e[t++]:16*Math.random()|0}r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,a="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",s="",c=0;c<a.length;c++)s+="x"===(o=a[c])?i().toString(16):"y"===o?(o=3&i()|8).toString(16):o;return s}function o(e){var t=null,r=0,n=self.crypto||self.msCrypto;n&&n.getRandomValues&&Uint8Array&&(t=n.getRandomValues(new Uint8Array(31)));for(var i=[],o=0;o<e;o++)i.push(a().toString(16));return i.join("");function a(){return t?15&t[r++]:16*Math.random()|0}}},2053:(e,t,r)=>{"use strict";r.d(t,{nb:()=>s,os:()=>c,yf:()=>a,zO:()=>o});var n=(new Date).getTime(),i=n;function o(){return performance?.now?Math.round(performance.now()):(n=Math.max((new Date).getTime(),n))-i}function a(){return n}function s(e){i=e}function c(){return i}},6625:(e,t,r)=>{"use strict";r.d(t,{s:()=>a,v:()=>s});var n=r(8283),i=r(2053),o=r(2374);let a=!0;function s(e){var t=function(){a=!1;const e=o._A?.performance?.timeOrigin||o._A?.performance?.timing?.navigationStart;if(!e)return;return Math.round(e)}();t&&((0,n.B)(e,"starttime",t),(0,i.nb)(t))}},8283:(e,t,r)=>{"use strict";r.d(t,{B:()=>o,L:()=>a});var n=r(2053),i={};function o(e,t,r){void 0===r&&(r=(0,n.zO)()+(0,n.os)()),i[e]=i[e]||{},i[e][t]=r}function a(e,t,r,n){const o=e.sharedContext.agentIdentifier;var a=i[o]?.[r],s=i[o]?.[n];void 0!==a&&void 0!==s&&e.store("measures",t,{value:s-a})}},2545:(e,t,r)=>{"use strict";r.d(t,{L:()=>c});var n=r(9071),i=r(8544),o=r(8305),a=r(2374),s=r(6998);if(a.v6){a._A.cleanupTasks=[];const e=a._A.close;a._A.close=()=>{for(let e of a._A.cleanupTasks)e();e()}}function c(e,t){if(a.il)if(t)(0,s.N)(e,!0),(0,i.bP)("pagehide",e);else{var r=(0,o.Z)(e);!n.I||navigator.sendBeacon?(0,i.bP)("pagehide",r):(0,i.bP)("beforeunload",r),(0,i.bP)("unload",r)}else a.v6&&a._A.cleanupTasks.push(e)}},8610:(e,t,r)=>{"use strict";function n(e,t){console&&console.warn&&"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},3916:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},2374:(e,t,r)=>{"use strict";r.d(t,{_A:()=>o,il:()=>n,lW:()=>a,v6:()=>i});const n=Boolean("undefined"!=typeof window&&window.document),i=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator);let o=(()=>{if(n)return window;if(i){if("undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope)return globalThis;if(self instanceof WorkerGlobalScope)return self}throw new Error('New Relic browser agent shutting down due to error: Unable to locate global scope. This is possibly due to code redefining browser global variables like "self" and "window".')})();function a(){return o}},7022:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t){var r=[],i="",o=0;for(i in e)n.call(e,i)&&(r[o]=t(i,e[i]),o+=1);return r}},8305:(e,t,r)=>{"use strict";r.d(t,{Z:()=>o});var n=r(8683),i=r.n(n);function o(e){var t,r=!1;return function(){return r?t:(r=!0,t=e.apply(this,i()(arguments)))}}},2650:(e,t,r)=>{"use strict";r.d(t,{K:()=>a,b:()=>o});var n=r(8544);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},6797:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>u,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>d,mF:()=>s});var n=r(2053),i=r(2374);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,r){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.zO)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[r]:t}},i}function u(e,t){a()[e]=t}function d(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},6998:(e,t,r)=>{"use strict";r.d(t,{N:()=>i,e:()=>o});var n=r(8544);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return void(0,n.iz)("visibilitychange",(function(){if(t){if("hidden"!=document.visibilityState)return;e()}e(document.visibilityState)}))}function o(){return"hidden"===document.visibilityState?-1:1/0}},6034:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(2325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},2484:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.pageViewEvent},6382:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.pageViewTiming},1509:(e,t,r)=>{"use strict";r.d(t,{W:()=>s});var n=r(6562),i=r(3752),o=r(2384),a=r(6797);class s{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,n.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=r,this.blocked=!1,this.checkConfiguration()}checkConfiguration(){if(!(0,n.lF)(this.agentIdentifier)){let e={...(0,a.gG)().info?.jsAttributes};try{e={...e,...(0,n.C5)(this.agentIdentifier)?.jsAttributes}}catch(e){}(0,o.j)(this.agentIdentifier,{...(0,a.gG)(),info:{...(0,a.gG)().info,jsAttributes:e}})}}}},2384:(e,t,r)=>{"use strict";r.d(t,{j:()=>w});var n=r(8683),i=r.n(n),o=r(2325),a=r(6562),s=r(9252),c=r(7022),u=r(3752),d=r(2053),f=r(4329),l=r(2650),g=r(2374),v=r(8610),p=r(6034);function h(e){["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&e.api[t](...n)}))}(t,...n)}}))}var m=r(6797);const b={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa]};const y={};function w(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=arguments.length>2?arguments[2]:void 0,w=arguments.length>3?arguments[3]:void 0,{init:A,info:E,loader_config:x,runtime:T={loaderType:n},exposed:_=!0}=t;const D=(0,m.gG)();let O={};return E||(A=D.init,E=D.info,x=D.loader_config,O=D),g.v6&&(E.jsAttributes={...E.jsAttributes,isWorker:!0}),(0,a.CX)(e,E),(0,a.Dg)(e,A||{}),(0,a.GE)(e,x||{}),(0,a.sU)(e,T),function(e,t,n){n||(0,f.R)(e,"api"),h(t);var m=u.ee.get(e),b=m.get("tracer"),y="api-",w=y+"ixn-";function A(){}(0,c.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,r){t[r]=x(y,r,!0,"api")})),t.addPageAction=x(y,"addPageAction",!0,o.D.pageAction),t.setCurrentRouteName=x(y,"routeName",!0,o.D.spa),t.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,a.OP)(e).customTransaction=(r||"http://custom.transaction")+t,x(y,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,r){const n=(0,a.C5)(e);return(0,a.CX)(e,{...n,jsAttributes:{...n.jsAttributes,[t]:r}}),x(y,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new A).get()};var E=A.prototype={createTracer:function(e,t){var r={},n=this,i="function"==typeof t;return(0,s.p)(w+"tracer",[(0,d.zO)(),e,r],n,o.D.spa,m),function(){if(b.emit((i?"":"no-")+"fn-start",[(0,d.zO)(),n,i],r),i)try{return t.apply(this,arguments)}catch(e){throw b.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],r),e}finally{b.emit("fn-end",[(0,d.zO)()],r)}}}};function x(e,t,r,n){return function(){return(0,s.p)(p.xS,["API/"+t+"/called"],void 0,o.D.metrics,m),(0,s.p)(e+t,[(0,d.zO)()].concat(i()(arguments)),r?null:this,n,m),r?void 0:this}}function T(){r.e(439).then(r.bind(r,5692)).then((t=>{let{setAPI:r}=t;r(e),(0,f.L)(e,"api")})).catch((()=>(0,v.Z)("Downloading runtime APIs failed...")))}(0,c.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){E[t]=x(w,t,void 0,o.D.spa)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,s.p)(p.xS,["API/noticeError/called"],void 0,o.D.metrics,m),(0,s.p)("err",[e,(0,d.zO)(),!1,t],void 0,o.D.jserrors,m)},g.v6?T():(0,l.b)((()=>T()),!0)}(e,O,w),(0,m.Qy)(e,D,"api"),(0,m.Qy)(e,_,"exposed"),(0,m.EZ)("activatedFeatures",y),(0,m.EZ)("setToken",(t=>function(e,t){var r=u.ee.get(t);e&&"object"==typeof e&&((0,c.D)(e,(function(e,t){if(!t)return(b[e]||[]).forEach((t=>{(0,s.p)("block-"+e,[],void 0,t,r)}));y[e]||((0,s.p)("feat-"+e,[],void 0,b[e],r),y[e]=!0)})),(0,f.L)(t,o.D.pageViewEvent))}(t,e))),O}},909:(e,t,r)=>{"use strict";r.d(t,{Z:()=>i,q:()=>o});var n=r(2325);function i(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}function o(e){return e===n.D.jserrors?[]:["auto"]}},2325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8}},8683:e=>{e.exports=function(e,t,r){t||(t=0),void 0===r&&(r=e?e.length:0);for(var n=-1,i=r-t||0,o=Array(i<0?0:i);++n<i;)o[n]=e[t+n];return o}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return i.d(t,{a:t}),t},i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",317:"jserrors-aggregate",348:"page_view_timing-aggregate",439:"async-api",729:"lazy-loader",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"2f41aaf7",147:"28086cfb",178:"52056f28",193:"545db67a",317:"941c6e17",348:"a7d9d7be",439:"737e0ca6",729:"540ab0d1",786:"2ae3c96c",873:"494130b7",898:"52cc993d"}[e]+"-1227.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var f=u[d];if(f.getAttribute("src")==r||f.getAttribute("data-webpack")==t+o){s=f;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r),e[r]=[n];var l=(t,n)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},g=setTimeout(l.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=l.bind(null,s.onerror),s.onload=l.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={703:0,946:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=window.webpackChunkNRBA=window.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})();var o={};(()=>{"use strict";i.r(o);var e=i(2325),t=i(6562);const r=Object.values(e.D);function n(e){const n={};return r.forEach((r=>{n[r]=function(e,r){return!1!==(0,t.Mt)(r,"".concat(e,".enabled"))}(r,e)})),n}var a=i(2384),s=i(909),c=i(9252),u=i(2053),d=i(8283),f=i(6625),l=i(4329),g=i(1509),v=i(2650),p=i(2374),h=i(8610);class m extends g.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.hasAggregator=!1,this.auto=n,this.abortHandler,n&&(0,l.R)(e,r)}importAggregator(){if(this.hasAggregator||!this.auto)return;this.hasAggregator=!0;const e=async()=>{try{const{lazyLoader:e}=await i.e(729).then(i.bind(i,8110)),{Aggregate:t}=await e(this.featureName,"aggregate");new t(this.agentIdentifier,this.aggregator)}catch(e){(0,h.Z)("Downloading ".concat(this.featureName," failed...")),this.abortHandler?.()}};p.v6?e():(0,v.b)((()=>e()),!0)}}var b,y,w,A=i(2484);class E extends m{constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,A.t,r),(0,f.v)(e),(0,d.B)(e,"firstbyte",(0,u.yf)()),(0,v.K)((()=>this.measureDomContentLoaded())),(0,v.b)((()=>this.measureWindowLoaded()),!0),this.importAggregator()}measureWindowLoaded(){var t=(0,u.zO)();(0,d.B)(this.agentIdentifier,"onload",t+(0,u.os)()),(0,c.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}measureDomContentLoaded(){(0,d.B)(this.agentIdentifier,"domContent",(0,u.zO)()+(0,u.os)())}}b=E,y="featureName",w=A.t,(y=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(y))in b?Object.defineProperty(b,y,{value:w,enumerable:!0,configurable:!0,writable:!0}):b[y]=w;var x=i(9557),T=i(7022);class _ extends x.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,T.D)(e,(function(e,r){t[e]=D(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,T.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=D(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=O(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=D(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=j(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function D(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=O(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function O(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function j(e){return"object"!=typeof e?[]:(0,T.D)(e,k)}function k(e,t){return t}var P=i(6797),S=i(5526);var I,C=i(6998),N=i(8544),R=i(6382),M=-1,L=function(e){addEventListener("pageshow",(function(t){t.persisted&&(M=t.timeStamp,e(t))}),!0)},B=function(){return window.performance&&performance.getEntriesByType&&performance.getEntriesByType("navigation")[0]},z=function(){var e=B();return e&&e.activationStart||0},V=function(e,t){var r=B(),n="navigate";return M>=0?n="back-forward-cache":r&&(n=document.prerendering||z()>0?"prerender":document.wasDiscarded?"restore":r.type.replace(/_/g,"-")),{name:e,value:void 0===t?-1:t,rating:"good",delta:0,entries:[],id:"v3-".concat(Date.now(),"-").concat(Math.floor(8999999999999*Math.random())+1e12),navigationType:n}},W=function(e,t,r){try{if(PerformanceObserver.supportedEntryTypes.includes(e)){var n=new PerformanceObserver((function(e){Promise.resolve().then((function(){t(e.getEntries())}))}));return n.observe(Object.assign({type:e,buffered:!0},r||{})),n}}catch(e){}},q=function(e,t){var r=function r(n){"pagehide"!==n.type&&"hidden"!==document.visibilityState||(e(n),t&&(removeEventListener("visibilitychange",r,!0),removeEventListener("pagehide",r,!0)))};addEventListener("visibilitychange",r,!0),addEventListener("pagehide",r,!0)},Z=function(e,t,r,n){var i,o;return function(a){t.value>=0&&(a||n)&&((o=t.value-(i||0))||void 0===i)&&(i=t.value,t.delta=o,t.rating=function(e,t){return e>t[1]?"poor":e>t[0]?"needs-improvement":"good"}(t.value,r),e(t))}},H=function(e){document.prerendering?addEventListener("prerenderingchange",(function(){return e()}),!0):e()},F=(new Date,0),U=1/0,G=0,X=function(e){e.forEach((function(e){e.interactionId&&(U=Math.min(U,e.interactionId),G=Math.max(G,e.interactionId),F=G?(G-U)/7+1:0)}))},Q=function(){return I?F:performance.interactionCount||0},K=function(){"interactionCount"in performance||I||(I=W("event",X,{type:"event",buffered:!0,durationThreshold:0}))},Y=0,J=function(){return Q()-Y},$=[],ee={},te=function(e){var t=$[$.length-1],r=ee[e.interactionId];if(r||$.length<10||e.duration>t.latency){if(r)r.entries.push(e),r.latency=Math.max(r.latency,e.duration);else{var n={id:e.interactionId,latency:e.duration,entries:[e]};ee[n.id]=n,$.push(n)}$.sort((function(e,t){return t.latency-e.latency})),$.splice(10).forEach((function(e){delete ee[e.id]}))}},re=i(2545);class ne extends m{constructor(r,n){var i;let o=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(r,n,R.t,o),i=this,p.il){if(this.pageHiddenTime=(0,C.e)(),this.performanceObserver,this.lcpPerformanceObserver,this.clsPerformanceObserver,this.fiRecorded=!1,"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){this.performanceObserver=new PerformanceObserver((function(){return i.perfObserver(...arguments)}));try{this.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}this.lcpPerformanceObserver=new PerformanceObserver((function(){return i.lcpObserver(...arguments)}));try{this.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}this.clsPerformanceObserver=new PerformanceObserver((function(){return i.clsObserver(...arguments)}));try{this.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}this.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((e=>{(0,N.iz)(e,(function(){return i.captureInteraction(...arguments)}))})),function(e,t){t=t||{},H((function(){var r=[200,500];K();var n,i=V("INP"),o=function(e){e.forEach((function(e){e.interactionId&&te(e),"first-input"===e.entryType&&!$.some((function(t){return t.entries.some((function(t){return e.duration===t.duration&&e.startTime===t.startTime}))}))&&te(e)}));var t,r=(t=Math.min($.length-1,Math.floor(J()/50)),$[t]);r&&r.latency!==i.value&&(i.value=r.latency,i.entries=r.entries,n())},a=W("event",o,{durationThreshold:t.durationThreshold||40});n=Z(e,i,r,t.reportAllChanges),a&&(a.observe({type:"first-input",buffered:!0}),q((function(){o(a.takeRecords()),i.value<0&&J()>0&&(i.value=0,i.entries=[]),n(!0)})),L((function(){$=[],Y=Q(),i=V("INP"),n=Z(e,i,r,t.reportAllChanges)})))}))}((t=>{let{name:r,value:n,id:i}=t;(0,c.p)("timing",[r.toLowerCase(),n,{metricId:i}],void 0,e.D.pageViewTiming,this.ee)})),!0===(0,t.Mt)(this.agentIdentifier,"page_view_timing.long_task")&&(e=>{const t=t=>{t.forEach((t=>{const r={name:"LT",value:t.duration,info:{ltFrame:t.name,ltStart:t.startTime,ltCtr:t.attribution[0].containerType}};"window"!==r.info.ltCtr&&Object.assign(r.info,{ltCtrSrc:t.attribution[0].containerSrc,ltCtrId:t.attribution[0].containerId,ltCtrName:t.attribution[0].containerName}),e(r)}))};let r;try{PerformanceObserver.supportedEntryTypes.includes("longtask")&&(r=new PerformanceObserver((e=>{Promise.resolve().then((()=>{t(e.getEntries())}))})),r.observe({type:"longtask",buffered:!0}))}catch(e){}r&&(0,re.L)((()=>{t(r.takeRecords())}),!0)})((t=>{let{name:r,value:n,info:i}=t;(0,c.p)("timing",[r.toLowerCase(),n,i],void 0,e.D.pageViewTiming,this.ee)})),(0,C.N)((()=>{this.pageHiddenTime=(0,u.zO)(),(0,c.p)("docHidden",[this.pageHiddenTime],void 0,e.D.pageViewTiming,this.ee)}),!0),(0,N.bP)("pagehide",(()=>(0,c.p)("winPagehide",[(0,u.zO)()],void 0,e.D.pageViewTiming,this.ee))),this.importAggregator()}}perfObserver(t,r){t.getEntries().forEach((t=>{"first-paint"===t.name?(0,c.p)("timing",["fp",Math.floor(t.startTime)],void 0,e.D.pageViewTiming,this.ee):"first-contentful-paint"===t.name&&(0,c.p)("timing",["fcp",Math.floor(t.startTime)],void 0,e.D.pageViewTiming,this.ee)}))}lcpObserver(t,r){var n=t.getEntries();if(n.length>0){var i=n[n.length-1];if(this.pageHiddenTime<i.startTime)return;var o=[i],a=this.addConnectionAttributes({});a&&o.push(a),(0,c.p)("lcp",o,void 0,e.D.pageViewTiming,this.ee)}}clsObserver(t){t.getEntries().forEach((t=>{t.hadRecentInput||(0,c.p)("cls",[t],void 0,e.D.pageViewTiming,this.ee)}))}addConnectionAttributes(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e}captureInteraction(r){if(r instanceof t.Yu.EV&&!this.fiRecorded){var n=Math.round(r.timeStamp),i={type:r.type};this.addConnectionAttributes(i),n<=(0,u.zO)()?i.fid=(0,u.zO)()-n:n>(0,u.os)()&&n<=Date.now()?(n-=(0,u.os)(),i.fid=(0,u.zO)()-n):n=(0,u.zO)(),this.fiRecorded=!0,(0,c.p)("timing",["fi",n,i],void 0,e.D.pageViewTiming,this.ee)}}}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(ne,"featureName",R.t);const ie={dedicated:Boolean(p._A?.Worker),shared:Boolean(p._A?.SharedWorker),service:Boolean(p._A?.navigator?.serviceWorker)};let oe,ae,se;var ce=i(6034);class ue extends m{constructor(t,r){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(t,r,ce.t9,n),function(e){if(!oe){if(ie.dedicated){oe=Worker;try{p._A.Worker=r(oe,"Dedicated")}catch(e){o(e,"Dedicated")}if(ie.shared){ae=SharedWorker;try{p._A.SharedWorker=r(ae,"Shared")}catch(e){o(e,"Shared")}}else n("Shared");if(ie.service){se=navigator.serviceWorker.register;try{p._A.navigator.serviceWorker.register=(t=se,function(){for(var e=arguments.length,r=new Array(e),n=0;n<e;n++)r[n]=arguments[n];return i("Service",r[1]?.type),t.apply(navigator.serviceWorker,r)})}catch(e){o(e,"Service")}}else n("Service");var t;return}n("All")}function r(e,t){return"undefined"==typeof Proxy?e:new Proxy(e,{construct:(e,r)=>(i(t,r[1]?.type),new e(...r))})}function n(t){p.v6||e("Workers/".concat(t,"/Unavailable"))}function i(t,r){e("Workers/".concat(t,"module"===r?"/Module":"/Classic"))}function o(t,r){e("Workers/".concat(r,"/SM/Unsupported")),(0,h.Z)("NR Agent: Unable to capture ".concat(r," workers."),t)}}((t=>(0,c.p)(ce.xS,[t],void 0,e.D.metrics,this.ee))),this.importAggregator()}}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(ue,"featureName",ce.t9),new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,S.ky)(16);this.agentIdentifier=t,this.sharedAggregator=new _({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(E),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const r=n(this.agentIdentifier),i=Array.from(this.desiredFeatures);i.sort(((t,r)=>e.p[t.featureName]-e.p[r.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===e.D.pageViewEvent){const e=(0,s.Z)(t.featureName),n=e.every((e=>r[e]));n||(0,h.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat(JSON.stringify(e),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,P.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,h.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,P.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}}({features:[E,ne,ue],loaderType:"lite"})})(),window.NRBA=o})();</script><link rel="stylesheet" href="/cposg/softheme/src/css/app.css">
+<link rel="stylesheet" href="/cposg/softheme/src/fonts/saj/styles.css">
+<link rel="stylesheet" href="/cposg/css/formulario.css" type="text/css">
+<link rel="stylesheet" href="/cposg/css/modal.css" type="text/css">
+<link rel="stylesheet" href="/cposg/webjars/select2/3.5.4/select2.css" type="text/css">
+<link rel="stylesheet" href="/cposg/webjars/select2/3.5.4/select2-bootstrap.css" type="text/css">
+<link rel="stylesheet" href="/cposg/css/saj/select2/saj-select2.css">
+<script>
+	window.saj = window.saj || {};
+	window.saj.env = window.saj.env || {};
+	window.saj.env.root = '/cposg';
+	window.saj.env.css = '/cposg/css';
+	window.saj.env.js = '/cposg/js';
+	window.saj.env.imagens = '/cposg/imagens';
+
+	window.saj.cpo = window.saj.cpo || {};
+	// transfere variavel se cpo esta rodando para totem
+	window.saj.cpo.totem = 'false' == 'true';
+
+	window.saj.cpo.instanciaConsulta = {
+		SG5: 'true' == 'true',
+		SG5TJ: 'true' == 'true',
+		SG5CR: 'false' == 'true',
+		value: 'SG5TJ'
+	}; 
+</script><script language="javascript" type="text/JavaScript" src="/cposg/js/jquery/jquery.min.js?n=1620728708"></script><script language="javascript" type="text/JavaScript" src="/cposg/js/jquery/jquery.func_toggle.js?n=f2e8b8e2-d1b5-4a6a-a8bd-8209e774c8a2"></script><script language="javascript" type="text/javascript" src="/cposg/js/jquery/jquery.blockUI.min.js?n=99711064-d382-4c54-ad9f-773fc3f8fdda"></script><script language="javascript" type="text/javascript" src="/cposg/js/jquery/jquery.browser.min.js?n=b7e907f6-916e-4781-a64e-c468b66f62af"></script><script language="javascript" type="text/javascript" src="/cposg/webjars/lodash/4.17.5/lodash.js?n=3e7a2f7f-6e0f-46ac-aca3-9fa58bba42a6"></script><script language="javascript" type="text/JavaScript" src="/cposg/js/select2/select2.js?n=40d1b74a-dd25-4119-aa30-857abe15850b"></script><script language="javascript" type="text/JavaScript" src="/cposg/webjars/select2/3.5.4/select2_locale_pt-BR.js?n=31c79e6e-86a3-4a6b-bbef-a0f57f07f816"></script><script language="javascript" type="text/JavaScript" src="/cposg/js/saj/saj-select2.js?n=1cbb50fb-b8c4-4d92-9152-3623b146eb16"></script><script language="javascript" type="text/JavaScript" src="/cposg/js/saj/saj-web-2.2.41-4.js?n=621b9f78-06ad-44ed-8c84-6b04b68eba4a"></script><script language="javascript" type="text/JavaScript" src="/cposg/js/saj/saj-tooltip.js?n=c90dd563-6778-4b99-a2cf-3eb7572a66bd"></script><script language="javascript" type="text/JavaScript" src="/cposg/js/saj/saj-popup-modal-1.0.0-1.js?n=5ce9c481-47aa-4e37-8e29-e0363232a0de"></script><script language="javascript" type="text/JavaScript" src="/cposg/js/saj/saj-browser.js?n=2ccd554e-8793-4fc8-9b80-6587e63b799c"></script><script language="javascript" type="text/JavaScript" src="/cposg/js/saj/saj-mascara-input.js?n=8f594bbe-9b92-482d-9fc1-3087c59ca40a"></script><script language="javascript" type="text/JavaScript" src="/cposg/js/saj/saj-numeroProcesso.js?n=a5420fc7-192b-433a-80df-19ca5fda81a1"></script><script language="javascript" type="text/JavaScript" src="/cposg/js/saj-cpo-cbpesquisa.js?n=3374557194"></script><script language="javascript" type="text/JavaScript" src="/cposg/js/saj/acessibilidade/acessibilidade.js?n=dcf56d0c-b4ed-4cd2-a93b-eaa55fff314e"></script><script language="javascript" type="text/JavaScript" src="/cposg/softheme/src/js/app.js?n=16289891"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js?n=ad4e0b62-1ddb-4360-8338-5e7ae567b2c0" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js?n=1791337263" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script><script>
+	(function($){
+		$(function(){
+			var intervalo = 115000;
+			$.saj.manterSessao('/cposg/manterSessao.do', intervalo);
+		});
+				
+	})(jQuery);
+</script><script>
+	window.saj.cpo = window.saj.cpo || {};
+	window.saj.cpo.urlBaseAcessoRecursoProcessoParaUsuario = '/cposg/autorizarAcessoRecursoProcessoParaUsuario.do?processoPK.cdProcesso=RI006876C0000&processoPK.cdForo=990&processoPK.tpOrigemProcesso=2&processoPK.flOrigem=S&processoPK.aliasDaBase=SG5TJ&numeroProcesso=2000915-83.2021.8.26.0000&cdVara=82';
+	window.saj.cpo.urlBaseAcessoRecursoMidiaAudienciaProcessoParaUsuario= '/cposg/autorizarAcessoRecursoAudienciaGravada.do?processoPK.cdProcesso=RI006876C0000&processoPK.cdForo=990&processoPK.tpOrigemProcesso=2&processoPK.flOrigem=S&processoPK.aliasDaBase=SG5TJ&numeroProcesso=2000915-83.2021.8.26.0000&cdVara=82';
+	window.saj.cpo.urlBaseAcessoRecursoProcessoComSenha = '/cposg/autorizarAcessoRecursoProcessoPorSenha.do?processoPK.cdProcesso=RI006876C0000&processoPK.cdForo=990&processoPK.tpOrigemProcesso=2&processoPK.flOrigem=S&processoPK.aliasDaBase=SG5TJ&numeroProcesso=2000915-83.2021.8.26.0000';
+	window.saj.cpo.abrirAutorizarAcessoRecursoProcessoPorSenha = '/cposg/abrirAutorizarAcessoRecursoProcessoPorSenha.do?processoPK.cdProcesso=RI006876C0000&processoPK.cdForo=990&processoPK.tpOrigemProcesso=2&processoPK.flOrigem=S&processoPK.aliasDaBase=SG5TJ&numeroProcesso=2000915-83.2021.8.26.0000';
+</script><script language="javascript" type="text/JavaScript" src="/cposg/js/acessoRecurso-2.10.2-0.js?n=2143112528"></script><script language="javascript" type="text/JavaScript" src="/cposg/js/acessoProcesso-2.10.2-0.js?n=3127152735"></script><script>
+	(function($){
+		$(function(){
+			var intervalo = 50000;
+			$.saj.manterSessao('/cposg/manterSessao.do', intervalo);
+		});
+				
+	})(jQuery);
+</script><!-- Correção temporária do alinhamento do divisor de seção de formulário do SPW --><script type="text/javascript">
+		$(function(){$('td[background$="spw/fundo_subtitulo2.gif"]').attr('valign', 'top')});
+	</script>
+</head>
+<script language="javascript" type="text/JavaScript">
+	  $.saj.acessoRecurso = {
+		  popupMensagem: {
+			  limitePastaDigital: 'false',
+			  titulo: 'Aviso:',
+			  texto: "Você atingiu o limite diário de acessos à pasta digital em processos que não está vinculado.",
+		  }
+	  };
+	  $.saj.getUrlParameter = function getUrlParameter(sParam) {
+		var sPageURL = decodeURIComponent(window.location.search.substring(1)), sURLVariables = sPageURL.split('&'), sParameterName, i;
+		for (i = 0; i < sURLVariables.length; i++) {
+			sParameterName = sURLVariables[i].split('=');
+				if (sParameterName[0] === sParam) {
+					return sParameterName[1] === undefined ? true : sParameterName[1];
+				}
+		}
+	  };
+  </script><script type="text/javascript">
+	(function($) {
+		$(function(){
+			var captcha = $.saj.getUrlParameter('uuidCaptcha');
+
+			if (!captcha) {
+				return;
+			}
+
+			var url = $('.processoPrinc').attr('href');
+			$('.processoPrinc').attr('href', url+'&uuidCaptcha='+captcha);
+
+			var $processoPaiApenso = $('.processoPaiApenso');
+            $processoPaiApenso.attr('href', $processoPaiApenso.attr('href') + '&uuidCaptcha=' + captcha);
+
+            var $incidente = $('.incidente');
+            $incidente.attr('href', $incidente.attr('href') + '&uuidCaptcha=' + captcha);
+		})
+	})(jQuery);
+</script><body>
+<input type="hidden" name="cdProcesso" value="RI006876C0000"><!-- HEADER--><div class="unj-entity-header">
+
+	
+
+
+
+
+<div class="unj-entity-header__actions__barra">
+    <div class="container">
+        <div class="row">
+            <div class="col-3 col-md-4">
+                <a href="javascript:history.back();" class="unj-link-back">
+                    <i class="icon-back"></i>
+                </a>
+            </div>
+            <div class="col-13 col-md-12 unj-ta-r">
+                <!-- Pasta digital -->
+                
+                	
+		       		<a class="linkPasta btn btn-secondary btn-space" id="pbVisualizarAutos" title="Pasta Digital" href="#" name="">
+				        Visualizar autos
+	      			</a>
+                
+                <!-- Peticionar -->
+                
+                    <button class="btn btn-primary btn-space" id="pbPeticionar" name="pbPeticionar" onclick="window.open('/cposg/peticionarIntermediariaParaProcesso.do?cdProcesso=RI006876C0000&amp;cdForo=990&amp;peticionanteResponsavel=249848-249848&amp;instancia=SG5TJ')">
+                        Peticionar
+                    </button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+	
+
+
+
+
+
+
+<div class="unj-entity-header__summary__barra">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-13">
+                <!--principal -->
+                
+                    <span class="unj-larger-1 " id="numeroProcesso">
+                        2000915-83.2021.8.26.0000
+                    </span>
+                    
+                    
+                        <span class="unj-tag" id="situacaoProcesso">Arquivado administrativamente</span>
+                    
+                    
+                    
+                
+                <!-- incidente -->
+                
+                
+            </div>
+        </div>
+        <div class="row">
+            
+                <div class="col-md-3">
+                    <span class="unj-label">Classe</span>
+                    <div class="lh-1-1 line-clamp__2" id="classeProcesso"> <span title="Habeas Corpus Criminal">Habeas Corpus Criminal</span>
+</div>
+                </div>
+            
+            
+                <div class="col-md-4">
+                    <span class="unj-label">
+                        Assunto
+                    </span>
+                    <div class="lh-1-1 line-clamp__2" id="assuntoProcesso"><span title="DIREITO PENAL - Crimes Previstos na Legislação Extravagante - Crimes de Tráfico Ilícito e Uso Indevido de Drogas - Associação para a Produção e Tráfico e Condutas Afins">DIREITO PENAL - Crimes Previstos na Legislação Extravagante - Crimes de Tráfico Ilícito e Uso Indevido de Drogas - Associação para a Produção e Tráfico e Condutas Afins</span></div>
+                </div>
+            
+            
+                <div class="col-md-3">
+                    <span class="unj-label">Seção</span>
+                    <div class="lh-1-1 line-clamp__2" id="secaoProcesso"> <span title="Direito Criminal">Direito Criminal</span>
+</div>
+                </div>
+            
+            
+                <div class="col-md-3">
+                    <span class="unj-label">Órgão Julgador</span>
+                    <div class="lh-1-1 line-clamp__2" id="orgaoJulgadorProcesso"> <span title="2ª Câmara de Direito Criminal">2ª Câmara de Direito Criminal</span>
+</div>
+                </div>
+            
+            
+                <div class="col-md-2">
+                    <span class="unj-label">Área</span>
+                    <div class="lh-1-1 line-clamp__2" id="areaProcesso"><span title="Criminal">Criminal</span></div>
+                </div>
+            
+            <!-- Processo principal -->
+            
+        </div>
+    </div>
+</div>
+
+	
+
+
+
+
+
+<div class="unj-entity-header__details__barra">
+    <div class="container">
+        <div class="unj-ta-r">
+            <a href="#maisDetalhes" class="unj-link-collapse" data-toggle="collapse" aria-expanded="false" aria-controls="maisDetalhes">
+                <span class="unj-link-collapse__show">
+                    <i class="unj-link-collapse__icon glyph glyph-chevron-down"></i>
+                    Mais
+                </span>
+                <span class="unj-link-collapse__hide">
+                    <i class="unj-link-collapse__icon glyph glyph-chevron-up"></i>
+                    Recolher
+                </span>
+            </a>
+        </div>
+        <div id="maisDetalhes" class="collapse" aria-expanded="false">
+            <div class="row unj-row--border-top">
+                
+                
+                
+                
+                    <div class="col-lg-3 mb-2">
+                        <span class="unj-label">Relator</span>
+                        <div class="line-clamp__2" id="relatorProcesso"><span title="AMARO THOMÉ">AMARO THOMÉ</span></div>
+                    </div>
+                
+                
+                
+                    <div class="col-lg-3 mb-2">
+                        <span class="unj-label">Valor da ação</span>
+                        <div class="line-clamp__2" id="valorAcaoProcesso"><span title="1,00">1,00</span></div>
+                    </div>
+                
+                
+                    <div class="col-lg-3 mb-2">
+                        <span class="unj-label">Outros números</span>
+                        <div class="text-wrap">
+                            
+                            <div>
+                                    2491/2020
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                
+                
+                
+                    <div class="col-lg-3 mb-2">
+                        <span class="unj-label">Origem</span>
+                        <div class="line-clamp__2"><span title="Comarca de Limeira / Foro de Limeira / 3ª Vara Criminal">Comarca de Limeira / Foro de Limeira / 3ª Vara Criminal</span></div>
+                    </div>
+                
+                
+                    <div class="col-lg-3 mb-2">
+                        <span class="unj-label">Volume / Apenso</span>
+                        <div class="line-clamp__2" id="volumeApensoProcesso"><span title="1 / 0">1 / 0</span></div>
+                    </div>
+                
+                
+                
+                
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+  
+  <div class="div-conteudo container unj-mb-40">
+  	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+
+
+
+
+    
+
+
+
+<aside class="aside-nav aside-nav--left aside-nav--acessibilidade"><div class="aside-nav__inner">
+        <header class="aside-nav__main-menu__header"><span class="aside-nav__main-menu__header__text">  Menu e-SAJ</span>
+            <a href="#" class="aside-nav__user__close-button close-offcanvas">
+                <img src="https://esaj.tjsp.jus.br/esaj/img/icons/icon-close--light.png" alt=""></a>
+        </header><nav class="aside-nav__main-menu"><ul class="aside-nav__main-menu__list" id="conteudoMenuEsaj"></ul></nav><div id="esaj-beta-switcher-placeholder"></div>
+    </div>
+</aside><aside class="aside-nav aside-nav--right aside-nav__user"><div class="aside-nav__inner">
+        <div class="aside-nav__user__sign">
+            <div class="aside-nav__user__sign__brand">
+                <img src="https://esaj.tjsp.jus.br/esaj/img/aside/brasoes/br-tjsp.jpg" alt="">
+</div>
+            <ul class="aside-nav__user__sign__list">
+<li><span class="aside-nav__user__sign__place">Tribunal de Justiça do Estado de São Paulo</span></li>
+            </ul>
+<a href="#" class="aside-nav__user__close-button close-offcanvas">
+                <img src="https://esaj.tjsp.jus.br/esaj/img/icons/icon-close--dark.png" alt=""></a>
+        </div>
+        <hr>
+<div class="aside-nav__user__info">
+            <h4 class="aside-nav__user__title">Minha conta</h4>
+            <ul class="aside-nav__user__info__list">
+<li class="aside-nav__user__info__list__item"><span class="aside-nav__user__info__name" id="menuNmUsuarioLogado"></span></li>
+                <li class="aside-nav__user__info__list__item"><span class="aside-nav__user__info__oab" id="menuUsuarioOabs">OAB: </span></li>
+            </ul>
+<ul class="aside-nav__user__info__list-access">
+<li class="aside-nav__user__info__list-access__item"><a class="aside-nav__user__info__list-access__item__link" href="https://esaj.tjsp.jus.br/esaj/cadastro.do">Meu perfil</a></li>
+                
+                    <li class="aside-nav__user__info__list-access__item"><a class="aside-nav__user__info__list-access__item__link" href="https://esaj.tjsp.jus.br/caixapostal">Caixa Postal</a></li>
+                
+                <li class="aside-nav__user__info__list-access__item"><a class="aside-nav__user__info__list-access__item__link" id="logoutLink" href="#">Sair</a></li>
+            </ul>
+</div>
+    </div>
+</aside><header><link rel="shortcut icon" href="https://esaj.tjsp.jus.br/esaj/tema/padrao/clientes/SP/imagens/favicon.ico" type="image/x-icon">
+<link href="https://esaj.tjsp.jus.br/esaj/app.css" rel="stylesheet" type="text/css">
+<nav class="header__navbar--barra"><div class="header__navbar__barra-acessibilidade">
+                <a class="header__navbar__barra-acessibilidade-anchor" target="_blank" href="https://www.tjsp.jus.br/Acessibilidade/Orientacoes"><span>Acessibilidade</span></a>
+                <a target="_blank" href="https://www.tjsp.jus.br/Acessibilidade/Orientacoes">
+                    <img onmouseover="exibirLibras()" onmouseleave="ocultarLibras()" src="https://esaj.tjsp.jus.br/esaj/tema/padrao/imagens/layout/mao.png" alt="MAO"></a>
+            </div>
+            <img id="gifLibras" class="header__navbar__barra-acessibilidade-libras" style="display: none" height="100" width="100" border="0" alt="LIBRAS" src="https://esaj.tjsp.jus.br/esaj/tema/padrao/imagens/layout/libras.gif"><a class="header__navbar__menu-hamburger open__aside-nav--left navbar-menu-hamburger__item__link">
+            <span class="menu-hamburger__alert" style="display:none;"></span>
+            <span class="glyph glyph-hamburger"></span>
+        </a>
+
+        <h1 class="header__navbar__title" href="">
+<a class="linkLogo" href="https://esaj.tjsp.jus.br/esaj/redirecionarNovoEsaj.do"><strong>e-SAJ</strong></a> | Consulta de Processos do 2ºGrau</h1>
+
+        <ul class="header__navbar__menu header__navbar__menu--right">
+<li class="header__navbar__menu__item header__navbar__menu__item--initials">
+                <a class="header__navbar__brand__initials" href="http://www.tjsp.jus.br/"> TJSP </a>
+            </li>
+            <li class="header__navbar__menu__item header__navbar__menu__item--user">
+               <span class="header__navbar__name open__aside-nav--right">
+                     <span id="headerNmUsuarioLogado" class="header__navbar__name__text"></span>
+                     <span class="glyph glyph-contact header__navbar__name__icon"></span>
+               </span>
+            </li>
+        </ul></nav></header><div class="offcanvas-backdrop"></div>
+
+
+<script>
+    var dict = {
+        'certificado.tituloCertificadoDigital': 'Certificado digital',
+        'certificado.msgCarregandoCertificado': 'Carregando certificados...',
+        'certificado.msgNenhumCertificadoEncontrado': 'Nenhum certificado encontrado',
+        'certificado.msgErroCarregarCertificado': 'Erro ao carregar certificados',
+        'certificado.msgCertificadoExpirado': '[Expirado]',
+        'certificado.msgCertificadoNaoValido': '[Ainda não válido]',
+        'certificado.msgCertificadoNaoIcpBrasil': '[Não ICP-Brasil]',
+        'certificado.tituloProblemasAoAssinar': 'Falha de comunicação com o dispositivo de assinatura digital',
+
+        'label.contato': 'Contato',
+        'label.identificarSe': 'Identificar-se ',
+
+        'mensagem.aguarde': 'Por favor, aguarde.',
+        'mensagem.paginaNaoCarregada': 'Não foi possível carregar a página.',
+        'mensagem.marcarLido': 'Marcar como lido',
+        'mensagem.registrosSelecionados': 'Registros selecionados',
+        'mensagem.registroJaSelecionado': 'Este registro já está selecionado',
+
+        'mensagem.data.invalida': 'A data digitada é inválida.',
+        'mensagem.data.anoInvalido': 'O ano informado deve ser maior que',
+        'mensagem.data.mesInvalido': 'O mês não pode ser maior que 12.',
+        'mensagem.data.mes': 'O mês',
+        'mensagem.data.mesMaior29dias': 'não pode ter mais que 29 dias.',
+        'mensagem.data.mesMaior28dias': 'não pode ter mais que 28 dias.',
+        'mensagem.data.mesMaior31dias': 'não pode ter mais que 31 dias.',
+        'mensagem.data.mesMaior30dias': 'não pode ter mais que 30 dias.',
+
+        'mensagem.email.invalido': 'O formato do endereço de e-mail não é válido. Verifique se ele tem o formato "usuario@dominio".',
+        'mensagem.email.caracteresInvalidos': 'O endereço de e-mail possui caracteres inválidos',
+        'mensagem.email.usuarioInvalido': 'O formato do usuário informado no endereço de e-mail não é válido.',
+        'mensagem.email.ipInvalido': 'O endereço IP informado no endereço de e-mail não é válido.',
+        'mensagem.email.dominioInvalido': 'O formato do domínio informado no endereço de e-mail não é válido.',
+        'mensagem.email.dominioIncompleto': 'O domínio informado no endereço de e-mail deve possuir pelo menos duas partes. Por exemplo: "usuario@empresa.com.br".',
+
+        'mensagem.texto.tamanhoInvalido': 'O tamanho do texto digitado é maior do que o tamanho permitido. Tamanho permitido:',
+        'mensagem.texto.caracter': 'O caracter',
+        'mensagem.texto.caracterPosicaoInvalida': 'não está permitido na posição',
+
+        'mensagem.numero.numeroInvalido': 'O valor digitado não é um número válido.',
+        'mensagem.numero.numeroNaoPodeCasasDecimais': 'O número não pode conter casas decimais',
+        'mensagem.numero.numeroCasaDecimaisInvalidas': 'O número de casas decimais é inválido. O número pode conter apenas',
+        'mensagem.numero.casaDecimais': 'casas decimais',
+        'mensagem.numero.numeroInteiroInvalido': 'O número de dígitos inteiros é inválido. O número pode conter apenas',
+        'mensagem.numero.digitosInteiros': 'dígitos inteiros',
+        'mensagem.numero.numeroTamanhoInvalido': 'O número digitado não pode ser maior que',
+        'mensagem.numero.numeroZeroInvalido': 'O número digitado deve ser diferente de zero.'
+    }
+</script><script>
+    var appEsajLayout = appEsajLayout || {};
+    appEsajLayout.urlNovoMenuHtml = 'https://esaj.tjsp.jus.br/esaj/menuPortalV2Html.do?servico=190201';
+
+    var appEsajCas = appEsajCas || {};
+    appEsajCas.urlServicoConteudoIdentificacao = 'https://esaj.tjsp.jus.br/sajcas/conteudoIdentificacaoJson?script=1678777515941&retorno=' + encodeURIComponent(location.href);
+</script><script src="https://esaj.tjsp.jus.br/esaj/js/portalV2-bundle.js?n=806192629"></script><script src="https://esaj.tjsp.jus.br/sajcas/seletorVersaoBeta.js?n=3fc713ba-90c0-4172-a138-2e539a6e6819&amp;versao=2"></script><script>
+    function exibirLibras() {
+        document.getElementById("gifLibras").style.display = 'block';
+        var cel1 = document.getElementsByClassName('esajCelulaIdentificacao');
+        var cel2 = document.getElementsByClassName('esajCelulaIdentificacaoServico');
+        mudarPosicao(cel1, 'static');
+        mudarPosicao(cel2, 'static');
+    }
+    function ocultarLibras() {
+        document.getElementById("gifLibras").style.display = 'none';
+        var cel1 = document.getElementsByClassName('esajCelulaIdentificacao');
+        var cel2 = document.getElementsByClassName('esajCelulaIdentificacaoServico');
+        mudarPosicao(cel1, 'relative');
+        mudarPosicao(cel2, 'relative');
+    }
+
+    function mudarPosicao(coll, posicao) {
+        if (!coll) {
+            return;
+        }
+        for (var i = 0, len = coll.length; i < len; i++) {
+            coll[i].style["position"] = posicao;
+        }
+    }
+</script><div style="padding-top: 10px;">
+	
+	
+		
+		
+			<h2 class="subtitle">Apensos / Vinculados</h2>
+		
+	
+</div>
+	<!--  Tabela de (apensos) -->
+	<table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1"><tr>
+<td colspan="3" align="left" id="dadosApensosNaoDisponiveis">Não há processos apensos ou vinculados para este processo.</td>
+				</tr></table>
+<!-- Tabela de (apensos) --><div style="padding-top: 10px;">
+	
+	
+		
+		
+			<h2 class="subtitle">Números de 1ª Instância</h2>
+		
+	
+</div>
+
+
+<table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1">
+<tr class="label">
+<td align="left" valign="top" width="200">Nº de 1ª instância</td>
+		<td align="left" valign="top" width="250">Foro</td>
+		<td align="left" valign="top" width="200">Vara</td>
+		<td align="left" valign="top" width="250">Juiz</td>
+		<td align="left" valign="top" width="*">Obs.</td>
+	  </tr>
+<tr class="fundoEscuro" height="2">
+<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	  </tr>
+</table>
+<table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1"><tr class="fundoClaro">
+<td align="left" valign="top" width="200">
+			
+				
+				
+					1504506-57.2020.8.26.0320
+				
+			
+	    </td>
+		<td align="left" valign="top" width="250">
+	      Foro de Limeira
+	    </td>
+		<td align="left" valign="top" width="200">
+	      3ª Vara Criminal
+	    </td>
+	    <td align="left" valign="top" width="250">
+	      -
+		</td>
+		<td align="left" valign="top">
+	      -
+		</td>
+	  </tr></table>
+<div style="padding-top: 10px;">
+	
+	
+		
+		
+		
+		
+	
+
+	
+		
+		
+			<h2 class="subtitle">Partes do Processo</h2>
+		
+	
+</div>
+
+<!--  cabecalho da tabela de lista (partes) -->
+
+
+<!--  dados da lista partes principais (partes) -->
+<table id="tablePartesPrincipais" style="margin-left:15px; margin-top:1px;" align="center" border="0" cellpadding="0" cellspacing="0" width="98%">
+<tr class="fundoClaro poloAtivo">
+<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+      <span class="mensagemExibindo tipoDeParticipacao">Impetrante: </span>
+    </td>
+    <td width="*" align="left" style="padding-bottom: 5px" class="nomeParteEAdvogado">
+	  
+		  
+			  
+			  
+				  Rafael Gomes dos Santos
+			  
+		  
+	     
+      
+ 	  
+	  
+      
+  	 </td>
+</tr>
+<tr class="fundoClaro poloAtivo">
+<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+      <span class="mensagemExibindo tipoDeParticipacao">Paciente: </span>
+    </td>
+    <td width="*" align="left" style="padding-bottom: 5px" class="nomeParteEAdvogado">
+	  
+		  
+			  
+			  
+				  ANDERSON DA SILVA
+			  
+		  
+	     
+      
+ 	  
+	  
+   	 	 <br><span class="mensagemExibindo">Advogado:&amp;nbsp</span>
+		  
+			  
+			  
+				  Rafael Gomes dos Santos
+			  
+		  
+		  <input type="hidden" value="121842SP"> 
+   	 	 
+      
+   	 	 <br><span class="mensagemExibindo">Advogado:&amp;nbsp</span>
+		  
+			  
+			  
+				  Daniel Ricardo Batista
+			  
+		  
+		  <input type="hidden" value="196433SP"> 
+   	 	 
+      
+   	 	 <br><span class="mensagemExibindo">Advogada:&amp;nbsp</span>
+		  
+			  
+			  
+				  Iraci Gonçalves Leite Santana
+			  
+		  
+		  <input type="hidden" value="245464SP"> 
+   	 	 
+      
+      
+  	 </td>
+</tr>
+<tr class="fundoClaro poloTerceiro">
+<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+      <span class="mensagemExibindo tipoDeParticipacao">Interessado: </span>
+    </td>
+    <td width="*" align="left" style="padding-bottom: 5px" class="nomeParteEAdvogado">
+	  
+		  
+			  
+			  
+				  MATHEUS HENRIQUE DE SOUZA
+			  
+		  
+	     
+      
+ 	  
+	  
+      
+  	 </td>
+</tr>
+</table>
+<!--  dados da lista todas as partes (partes) --><table id="tableTodasPartes" style="margin-left:15px; margin-top:1px; display: none; " align="center" width="98%" border="0" cellspacing="0" cellpadding="0">
+<tr class="fundoClaro poloAtivo">
+<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+      <span class="mensagemExibindo tipoDeParticipacao">Impetrante: </span>
+    </td>
+    <td width="*" align="left" style="padding-bottom: 5px" class="nomeParteEAdvogado">
+	  
+		  
+			  
+			  
+				  Rafael Gomes dos Santos
+			  
+		  
+	     
+      
+ 	  
+	  
+      
+  	 </td>
+</tr>
+<tr class="fundoClaro poloAtivo">
+<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+      <span class="mensagemExibindo tipoDeParticipacao">Paciente: </span>
+    </td>
+    <td width="*" align="left" style="padding-bottom: 5px" class="nomeParteEAdvogado">
+	  
+		  
+			  
+			  
+				  ANDERSON DA SILVA
+			  
+		  
+	     
+      
+ 	  
+	  
+   	 	 <br><span class="mensagemExibindo">Advogado:&amp;nbsp</span>
+		  
+			  
+			  
+				  Rafael Gomes dos Santos
+			  
+		  
+		  <input type="hidden" value="121842SP"> 
+   	 	 
+      
+   	 	 <br><span class="mensagemExibindo">Advogado:&amp;nbsp</span>
+		  
+			  
+			  
+				  Daniel Ricardo Batista
+			  
+		  
+		  <input type="hidden" value="196433SP"> 
+   	 	 
+      
+   	 	 <br><span class="mensagemExibindo">Advogada:&amp;nbsp</span>
+		  
+			  
+			  
+				  Iraci Gonçalves Leite Santana
+			  
+		  
+		  <input type="hidden" value="245464SP"> 
+   	 	 
+      
+      
+  	 </td>
+</tr>
+<tr class="fundoClaro poloTerceiro">
+<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+      <span class="mensagemExibindo tipoDeParticipacao">Interessado: </span>
+    </td>
+    <td width="*" align="left" style="padding-bottom: 5px" class="nomeParteEAdvogado">
+	  
+		  
+			  
+			  
+				  MATHEUS HENRIQUE DE SOUZA
+			  
+		  
+	     
+      
+ 	  
+	  
+      
+  	 </td>
+</tr>
+<tr class="fundoClaro poloTerceiro">
+<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+      <span class="mensagemExibindo tipoDeParticipacao">Interessado: </span>
+    </td>
+    <td width="*" align="left" style="padding-bottom: 5px" class="nomeParteEAdvogado">
+	  
+		  
+			  
+			  
+				  IGOR BARBOSA DE LIMA
+			  
+		  
+	     
+      
+ 	  
+	  
+      
+  	 </td>
+</tr>
+<tr class="fundoClaro poloTerceiro">
+<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+      <span class="mensagemExibindo tipoDeParticipacao">Interessado: </span>
+    </td>
+    <td width="*" align="left" style="padding-bottom: 5px" class="nomeParteEAdvogado">
+	  
+		  
+			  
+			  
+				  LAUDINEIA PEREIRA
+			  
+		  
+	     
+      
+ 	  
+	  
+      
+  	 </td>
+</tr>
+<tr class="fundoClaro poloTerceiro">
+<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+      <span class="mensagemExibindo tipoDeParticipacao">Interessado: </span>
+    </td>
+    <td width="*" align="left" style="padding-bottom: 5px" class="nomeParteEAdvogado">
+	  
+		  
+			  
+			  
+				  LAIS PEREIRA
+			  
+		  
+	     
+      
+ 	  
+	  
+      
+  	 </td>
+</tr>
+</table>
+<div id="divLinksTituloBlocoPartes" style="text-align:right">
+        
+
+
+
+
+
+
+
+<input id="mensagemNaoExibidapartes" type="hidden" value=""><input id="linkNaoExibidopartes" type="hidden" value="Recolher"><span id="mensagensExibindopartes" class="mensagemExibindo">
+
+</span>  
+<a id="linkpartes" href="javascript:" class="linkNaoSelecionado unj-link-collapse">
+    <span id="setasDireitapartes" class="setasDireita">
+        <i class="unj-link-collapse__icon glyph glyph-chevron-down"></i>
+    </span>
+    Mais</a>
+
+<script>
+	$(function() {
+		var controlarLink = function() {
+			var $linkNaoExibido = $('input#linkNaoExibidopartes');
+			var conteudoLinkNaoApresentado = $linkNaoExibido.val();
+			var $link = $('a#linkpartes');
+
+			$linkNaoExibido.val($link.html());
+			$link.html(conteudoLinkNaoApresentado);
+		};
+
+		var controlarMensagem = function() {
+			var $mensagemNaoExibida = $('input#mensagemNaoExibidapartes');
+			var $spanMensagem = $('span#mensagensExibindopartes');
+			var mensagemExibida = $spanMensagem.html();
+			var mensagemNaoExibida = $mensagemNaoExibida.val();
+
+			$spanMensagem.html(mensagemNaoExibida);
+			$mensagemNaoExibida.val(mensagemExibida);
+		};
+
+		var controlarMensagemLink = function() {
+			controlarMensagem();
+			controlarLink();
+		};
+
+		var esconderElementosExtrasMostrarDefault = function() {
+			$('#tableTodasPartes').hide();
+			$('#tablePartesPrincipais').show();
+		};
+
+		var mostrarElementosExtrasEsconderDefault = function() {
+			$('#tablePartesPrincipais').hide();
+			$('#tableTodasPartes').show();
+		};
+
+		var initPagina = function() {
+            var setasDireita = '<span id="setasDireitapartes" class="setasDireita"><i class="unj-link-collapse__icon glyph glyph-chevron-up"></i></span>';
+			var $linkEscondido = $('input#linkNaoExibidopartes');
+			$linkEscondido.val(setasDireita+$linkEscondido.val());
+		};
+
+		var bindLink = function() {
+			var $link = $('a#linkpartes');
+			$link.funcToggle('click', mostrarElementosExtrasEsconderDefault, esconderElementosExtrasMostrarDefault);
+			$link.bind('click', controlarMensagemLink);
+		};
+
+		initPagina();
+		bindLink();
+		esconderElementosExtrasMostrarDefault();
+	});
+</script>
+</div>
+
+
+			  	
+			  	
+
+				
+
+			  	
+
+				
+
+			  	
+
+			  	
+			  	
+			  	
+			
+	  	
+			
+				
+				
+			  	
+
+				
+
+			  	
+
+				
+		  			
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="padding-top: 10px;">
+	
+	
+		
+		
+		
+		
+	
+
+	
+		
+		
+			<h2 class="subtitle">Movimentações</h2>
+		
+	
+</div>
+
+ 
+	
+
+<table style="margin-left:15px; margin-top:1px;" align="center" border="0" cellpadding="0" cellspacing="0" width="98%">
+<thead>
+<tr>
+<th width="120" class="label" style="vertical-align: bottom">Data</th>
+				  <th valign="middle" width="20" aria-hidden="true"> </th>
+				  <th valign="middle" class="label">Movimento</th>
+				</tr>
+<tr class="fundoEscuro" height="2" aria-hidden="true">
+<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+</thead>
+<tbody id="tabelaUltimasMovimentacoes">
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        22/04/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=36" name="M" cddocumento="36">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=36" name="M" cddocumento="36">
+                    Processo encaminhado para o Arquivo
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Termo de Encaminhamento ao Arquivo [Digital]</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        22/04/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=35" name="M" cddocumento="35">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=35" name="M" cddocumento="35">
+                    Expedido Certidão
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Certidão de Trânsito em Julgado [Digital]</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        13/04/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Ciência Antecipada Intimação Eletrônica
+            
+        
+
+        
+
+        <br><span style="font-style: italic;"></span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        09/04/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=33" name="M" cddocumento="33">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=33" name="M" cddocumento="33">
+                    Expedido Certidão
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Certidão de Remessa da Intimação para o Portal Eletrônico</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        24/03/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Publicado em
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Disponibilizado em 23/03/2021
+Tipo de publicação: Intimação de Acórdão
+Número do Diário Eletrônico: 3243</span>
+
+        
+    </td>
+</tr>
+</tbody>
+<tbody style="display: none;" id="tabelaTodasMovimentacoes">
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        22/04/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=36" name="M" cddocumento="36">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=36" name="M" cddocumento="36">
+                    Processo encaminhado para o Arquivo
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Termo de Encaminhamento ao Arquivo [Digital]</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        22/04/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=35" name="M" cddocumento="35">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=35" name="M" cddocumento="35">
+                    Expedido Certidão
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Certidão de Trânsito em Julgado [Digital]</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        13/04/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Ciência Antecipada Intimação Eletrônica
+            
+        
+
+        
+
+        <br><span style="font-style: italic;"></span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        09/04/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=33" name="M" cddocumento="33">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=33" name="M" cddocumento="33">
+                    Expedido Certidão
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Certidão de Remessa da Intimação para o Portal Eletrônico</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        24/03/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Publicado em
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Disponibilizado em 23/03/2021
+Tipo de publicação: Intimação de Acórdão
+Número do Diário Eletrônico: 3243</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        23/03/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=32" name="M" cddocumento="32">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=32" name="M" cddocumento="32">
+                    Ciência de acórdão - Prazo - 10 dias
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Exmo(a) Senhor(a), Fica aberta vista à Douta Procuradoria Geral de Justiça para ciência do v. acórdão , ficando ciente de que a íntegra dos autos do processo eletrônico encontra-se disponível no endereço http://esaj.tjsp.jus.br.<br><b>Vencimento: </b>12/04/2021</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        23/03/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=31" name="M" cddocumento="31">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=31" name="M" cddocumento="31">
+                    Expedido Certidão
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Certidão de Publicação de Acórdão [Digital]</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        18/03/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Processo encaminhado para o Processamento de Grupos e Câmaras para Intimação do Acórdão - Julgamento Virtual
+            
+        
+
+        
+
+        <br><span style="font-style: italic;"></span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        18/03/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Acórdão registrado
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Acórdão registrado sob nº 20210000201519, com 25 folhas.</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        18/03/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=27" name="M" cddocumento="27">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=27" name="M" cddocumento="27">
+                    Julgado virtualmente
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Denegaram a ordem. V. U.</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        17/03/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Julgamento Virtual Iniciado
+            
+        
+
+        
+
+        <br><span style="font-style: italic;"></span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        16/03/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=25" name="M" cddocumento="25">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=25" name="M" cddocumento="25">
+                    Conclusos para o Relator
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Termo de conclusão - Relator (automático)</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        16/03/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Petição Intermediária Juntada
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Nº Protocolo: WPRO.21.00284437-1
+Tipo da Petição: Parecer da PGJ
+Data: 16/03/2021 17:13
+</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        16/03/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=23" name="M" cddocumento="23">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=23" name="M" cddocumento="23">
+                    Expedido Termo
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Termo de Juntada - Automática</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        01/02/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Publicado em
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Disponibilizado em 29/01/2021
+Tipo de publicação: Despacho
+Número do Diário Eletrônico: 3206</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        01/02/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Publicado em
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Disponibilizado em 29/01/2021
+Tipo de publicação: Despacho
+Número do Diário Eletrônico: 3206</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        29/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=22" name="M" cddocumento="22">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=22" name="M" cddocumento="22">
+                    Expedido Certidão
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Certidão de Publicação de Despacho [Digital]</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        28/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Publicado em
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Disponibilizado em 27/01/2021
+Tipo de publicação: Entrados
+Número do Diário Eletrônico: 3204</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        27/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Publicado em
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Disponibilizado em 26/01/2021
+Tipo de publicação: Distribuídos
+Número do Diário Eletrônico: 3203</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        21/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=17" name="M" cddocumento="17">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=17" name="M" cddocumento="17">
+                    Processo encaminhado para o MP - Parecer
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">PGJ - Vista para Parecer [Digital]</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        21/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Pedido de Informações Juntado
+            
+        
+
+        
+
+        <br><span style="font-style: italic;"></span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        15/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=15" name="M" cddocumento="15">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=15" name="M" cddocumento="15">
+                    Expedido Ofício
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Solicitadas Informações - Sem Liminar - HC - [Digital] - HC e MS</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        14/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Processo encaminhado para o Proc. Recursos de H.C. e M.S.
+            
+        
+
+        
+
+        <br><span style="font-style: italic;"></span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        13/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=13" name="M" cddocumento="13">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=13" name="M" cddocumento="13">
+                    Liminar
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">DESPACHO Habeas Corpus Criminal Processo nº 2000915-83.2021.8.26.0000 Relator(a): AMARO THOMÉ Órgão Julgador: 2ª Câmara de Direito Criminal Vistos. Cuida-se de habeas corpus, com pedido liminar, impetrado por RAFAEL GOMES DOS SANTOS em favor de ANDERSON DA SILVA, apontando como autoridade coatora o Juízo de Direito da 3ª Vara Criminal da Comarca de Limeira (autos n° 1504506.57.2020.8.26.0320), que teria decretado e mantido a prisão preventiva da paciente sem o devido amparo legal, bem como indeferido o pedido de prisão domiciliar. O paciente se encontra cautelarmente privado de sua liberdade de locomoção porquanto incurso, em tese, nos crimes tipificados nos art. 33, 34 e 35, todos da Lei n° 11.343, de 23 de agosto de 2.006. Resumidamente, o habeas corpus é impetrado sob as seguintes alegações: (i) ausência de fundamentação idônea das r. decisões vergastadas; (ii) irregularidade do auto de prisão em flagrante, porquanto o paciente teria sido agredido; (iii) condição de usuário do paciente; (iv) ser o paciente responsável pelos cuidados de filho menor de 12 anos de idade e (v) desproporcionalidade e desnecessidade da medida ante a situação de pandemia de Covid-19. Requer, nestes termos, o relaxamento da prisão em flagrante e, subsidiariamente, a concessão da prisão domiciliar ou da liberdade provisória, ainda que mediante a imposição de medidas cautelares alternativas ao cárcere. O pedido liminar foi indeferido em sede de Plantão Judiciário de Segundo Grau, nos termos da r. decisão de fls. 349/369. Ação distribuída em prevenção ao habeas corpus nº 2298462-76.2020.8.26.0000. É o relatório. Mantenho a decisão de fls. 349/369 pelos seus próprios fundamentos. Requisitem-se informações da autoridade indicada como coatora. Após, abra-se vista à D. Procuradoria Geral de Justiça. Intimem-se. São Paulo, 13 de janeiro de 2021. AMARO THOMÉ Relator</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        13/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=12" name="M" cddocumento="12">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=12" name="M" cddocumento="12">
+                    Conclusos para o Relator (Expedido Termo com Conclusão)
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">AMARO THOMÉ</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        13/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Redistribuição por Competência Exclusiva
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Motivo: Prevenção pelo HC nº 2298462-76.2020.8.26.0000 (Recebido do Plantão de 06/01/2021)
+Órgão Julgador: 82 - 2ª Câmara de Direito Criminal
+Relator: 14681 - Amaro Thomé</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        06/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Processo encaminhado para a Distribuição de Originários - Plantão
+            
+        
+
+        
+
+        <br><span style="font-style: italic;"></span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        06/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Processo encaminhado para o Processamento de Grupos e Câmaras
+            
+        
+
+        
+
+        <br><span style="font-style: italic;"></span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        06/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=6" name="M" cddocumento="6">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=6" name="M" cddocumento="6">
+                    Liminar
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Habeas Corpus nº 2000915-83.2021.8.26.0000 Comarca: Limeira Impetrante: Dr. Rafael Gomes dos Santos Paciente: ANDERSON DA SILVA Vistos. Trata-se de habeas corpus, com pedido de liminar, impetrado pelo i. Advogado Dr. Rafael Gomes dos Santos a favor de ANDERSON DA SILVA, sob a alegação de que ela estaria sofrendo coação ilegal por ato do MM. Juiz de Direito da 3ª Vara Criminal da Comarca de Limeira, consistente na conversão de sua prisão em flagrante em preventiva nos autos do Processo nº 1504506-57.2020.8.26.0320, ante a prática de delitos previstos na Lei nº 11.343/06. Alega o i. Advogado, em síntese, que (i) a decisão judicial que converteu a prisão em flagrante em preventiva não foi adequadamente fundamentada pela d. Autoridade Judicial apontada como coatora; (ii) a prisão... é irregular... [em razão de] abuso de autoridade [supostamente praticado pelos policiais militares que efetuaram a prisão em flagrante]... (fl. 5); (iii) o paciente é pai de filha menor de 12 anos e é o único responsável pelos seus cuidados, enquadrando-se na norma do art. 318, VI, do Código de Processo Penal; e (iv) a manutenção da custódia agrava os riscos de contaminação pelo coronavírus. Com base nesses argumentos, postula liminarmente a concessão de medida de substituição de prisão preventiva em liberdade provisória e ou prisão domiciliar, para aguardar o julgamento de seu processo em liberdade, mesmo que domiciliar... (fl. 28). É o relatório. O paciente ANDERSON DA SILVA, juntamente com Matheus Henrique de Souza, Laudineia Pereira, Igor Barbosa e Lais Pereira, foram presos em flagrante em razão da prática dos delitos dos arts. 33, 34 e 35, todos da Lei Antidrogas. Conforme do depoimento do policial militar Lucas Eduardo Seleghim (fls. 2/3-ap), um dos responsáveis pela prisão em flagrante, a Polícia Militar recebeu denúncia anônima de que na... casa... [em que a paciente estava havia] grande quantidade de drogas... [Ele e o também policial militar Claudinei Ramos] dirigiram-se para o local e após baterem no portão foram recebidos pela indiciada Lais... Ao abrir o portão, viram que quatro indivíduos fugiam da casa pelo fundo do quintal através de uma escada, iniciando a perseguição deles, sendo detidos os indiciados ANDERSON, Matheus e Igor... O quarto indivíduo... conseguiu fugir sem ser identificado... Lais disse que eles fugiram porque havia droga na casa... No interior [dela]... também foi encontrada a indiciada Laudinéia... Foram apreendidos [no local] 16.430 flaconetes contendo cocaína, 17 mil flaconetes vazios e acondicionados em embalagem plástica, 3.800 kg de cocaína em pó a granel, 09 tijolos de crack ,sendo 06 inteiros e 03 fracionados, 183 pedras de crack embaladas individualmente, 04 tabletes pequenos de maconha, pó branco acondicionado em embalagem de ácido bórico para mistura da preparação das drogas, balanças de precisão, liquidificador, diversos utensílios domésticos apreendidos conforme auto de exibição e apreensão... As drogas estavam na sala e em um quarto vazio da casa e haviam alguns flaconetes no outro quarto onde estava a indiciada Laudinéia... As indiciadas Laudinéia e Lais estavam na casa com suas filhas... [Havia] forte odor característico das drogas no local... Durante a fuga, o indiciado ANDERSON se machucou no joelho e coxa ao tentar fugir pelo telhado de uma casa cuja telha [estava solta] e provocou o ferimento (fl. 2-ap). A prisão em flagrante foi convertida em preventiva pela d. Magistrada de Primeiro Grau sob os seguintes fundamentos (fls. 316/318): Há indícios suficientes da autoria e prova da materialidade delitiva. Conforme consta do depoimento dos policiais militares, houve delação em desfavor do local onde a droga foi encontrada. O cheiro proveniente da grande quantia de entorpecentes que foram encontrados e apreendidos era forte, razão pela qual não há como as autuadas Lais e Laudineia afirmarem que desconheciam que a droga ali estivesse, até porque a quantidade é bastante significativa e estava visível. Ambas as autuadas estavam com suas filhas no local do crime expondo-as à criminalidade. Matheus, ANDERSON e Igor possuem passagens com condenação por tráfico de drogas e dada a quantidade de entorpecentes ali encontrada, bem como pelos vários apetrechos utilizados no preparo e embalo da droga, é certa a ligação de todos os autuados com o crime organizado. O fato de. as autuadas terem prole sob suas guardas, por si só, não autoriza que sejam colocadas em liberdade em ainda que tenham a substituição da prisão preventiva pela prisão domiciliar, eis que a instrução sequer teve início e dado o envolvimento com o crime organizado é certo que pode haver interferência nas provas ainda a serem produzidas, eis que o inquérito sequer foi relatado. Frise-se que as autuadas estavam com as crianças no local do crime não informando o que ali faziam. Por certo, as crianças não ficarão ao desamaparo, podendo, por ora, serem assistidas pelas famílias. A gravidade do crime é patente, por isso a ordem pública restou abalada. Havia drogas já preparadas para a venda, bem como grande quantidade ainda do entorpecente a ser preparada para o consumo final. Assim sendo, mostra-se prematura a concessão do benefício da liberdade provisória ou a substituição da prisão provisória por outra medida cautelar. Quanto a situação de superlotação dos presídios do estado de São Paulo, anoto que as autoridades paulistas têm tomado medidas eficazes para o controle da circulação do vírus entre a população carcerária. Ante o exposto, nos termos do artigo 310, inciso II, do Código de Processo Penal, CONVERTO A PRISÃO EM FLAGRANTE DE e MATHEUS HENRIQUE DE SOUZA, IGOR BARBOSA DE LIMA, ANDERSON DA SILVA, LAUDINEIA PEREIRA e LAIS PEREIRA e EM PRISÃO PREVENTIVA, pois presentes os requisitos dos artigos 312 e 313 do referido Diploma Legal e inadequadas e insuficientes as medidas cautelares diversas da prisão, pelas razões já expostas. Ao menos em princípio, é possível concluir que a decisão judicial acima, bem fundamentada pela d. Autoridade apontada como coatora, não encerra qualquer ilegalidade, inclusive na parte em que explicita a necessidade da prisão preventiva de ANDERSON para preservação da ordem pública, considerado seu histórico criminal relacionado ao tráfico de entorpecentes (v. fls. 152/159-ap) e as expressivas quantidades de crack, cocaína e maconha apreendidas na residência em que ele foi detido. Quanto ao argumento de que a prisão do paciente é ilegal porque ele apanhou [dos referidos policiais militares] para confessar que estava no interior da residência manipulando a droga que ali se encontrava... (fl. 5), basta dizer que ele não veio acompanhado de qualquer elemento de convicção apto a comprová-lo. Inversamente, conforme consta do depoimento daqueles policiais, os ferimentos sofridos no joelho e coxa [do paciente foram produzidos] ao tentar [ele] fugir pelo telhado de uma casa cuja telha [estava solta] e provocou o ferimento (fl. 2-ap), não havendo qualquer indício de que eles tenham mentido quanto a esse aspecto da ocorrência. Inversamente, ao ser interrogado na Delegacia de Polícia, ANDERSON nada aduziu sobre as agressões supostamente sofridas, tendo inclusive reconhecido que tentou fugir ao avistar os policiais (v. fl. 101). Por outro lado, quanto à alegação de que o paciente possui filho com sete anos de idade (cf. cópia de certidão de nascimento de fl. 55), de modo que faria jus à prisão domiciliar nos termos do art. 318, VI, do Cód. de Processo Penal, cabem algumas considerações. Em primeiro lugar, como já destacado, tendo sido o paciente preso na posse de grande quantidade de entorpecentes, é natural concluir que as medidas cautelares previstas no art. 319 do Cód. de Processo Penal não seriam aptas ou suficientes para salvaguardar a ordem pública, notadamente se se considera que ele foi surpreendido violando a norma do art. 33 da Lei de nº 11.343/06 em sua própria residência. Em segundo lugar porque, como se depreende do inciso IV do artigo 318-A do Código de Processo Penal, o benefício da prisão domiciliar só é cabível ao homem... caso seja o único responsável pelos cuidados do filho de até 12 (doze) anos de idade incompletos. No caso desses autos, embora haja provado de que o paciente é pai de um filho menor de 12 anos, não é possível concluir, ao menos nesse juízo de cognição sumária, que sua presença é indispensável aos cuidados dessa criança, nada indicando que ele faz jus à prisão domiciliar em substituição à preventiva, ou que essa medida se revela indispensável para os fins de assegurar a aplicação da lei penal e a manutenção ordem pública. Por fim, a questão ventilada na petição inicial no sentido de que a manutenção da prisão do paciente agravaria os riscos de contaminação pelo coronavírus comporta algumas considerações. Não se desconhece o teor da Recomendação nº 62, de 17 de março de 2020, emitida pelo C. Conselho Nacional de Justiça, no sentido da adoção, pelos Tribunais e magistrados do país, de medidas preventivas à propagação da infecção pelo novo coronavírus Covid-19 no âmbito dos sistemas de justiça penal e socioeducativo. Dita recomendação, que faz expressa referência à competência do CNJ (estabelecida no artigo 103-B, § 4º I, II e III, da CF/88) para expedir atos regulamentares, no âmbito de sua competência, ou recomendar providências, apreciar, de ofício ou mediante provocação, a legalidade dos atos administrativos praticados por membros ou órgãos do Poder Judiciário e receber e conhecer das reclamações contra membros ou órgãos do Poder Judiciário, evidentemente não se confunde com determinação ou controle de atos jurisdicionais dos magistrados brasileiros, cuja legitimidade deriva da independência e imparcialidade asseguradas pela própria Constituição nos seus artigos 5º, LV, e 95, I, II, III, bem como pelos tratados internacionais relativos à matéria firmados pelo Brasil. E tanto é assim que, ao emitir o documento, já no seu artigo 1º o CNJ anuncia o propósito de, [Art. 1º] Recomendar aos Tribunais e magistrados a adoção de medidas preventivas à propagação da infecção pelo novo coronavírus Covid-19 no âmbito dos estabelecimentos do sistema prisional e do sistema socioeducativo. Pois bem. O art. 117 da Lei de Execução Penal (nº 7.210/84), que se encontra em pleno vigor, estabelece como pressuposto para obtenção de prisão domiciliar que o sentenciado esteja cumprindo pena em regime prisional aberto ou, ao menos, que tenha obtido o direito de progredir a esse regime de cumprimento de pena corporal. Dispõe o art. 117 da Lei nº 7.210/84: Art. 117. Somente se admitirá o recolhimento do beneficiário de regime aberto em residência particular quando se tratar de: I - condenado maior de 70 (setenta) anos; II - condenado acometido de doença grave; III - condenada com filho menor ou deficiente físico ou mental; IV - condenada gestante. Sobre o que se deve entender por doença grave, para o fim de concessão de prisão domiciliar ao condenado com base no inciso II do artigo acima, GUILHERME DE SOUZA NUCCI ensina que Não se trata de ser enfermo, mesmo gravemente; a lei é enfática ao demandar debilidade extrema em função dessa doença. Por isso, cabe a avaliação judicial para cada caso, sem que se possa automatizar a concessão da prisão domiciliar. Ilustrando, o portador do vírus da AIDS, mesmo com manifestações de enfermidades oportunistas, não faz jus à prisão em domicílio, salvo se estiver em situação de limite, debilitado a ponto de não representar qualquer perigo à sociedade. E, no mesmo sentido, v.g., o seguinte julgado [sem destaque no original]: HABEAS CORPUS. SUBSTITUIÇÃO AO RECURSO ORDINÁRIO. IMPOSSIBILIDADE. TENTATIVA DE HOMICÍDIO QUALIFICADO CONTRA POLICIAIS MILITARES NO EXERCÍCIO DE SUA FUNÇÃO. PRISÃO EM FLAGRANTE CONVERTIDA EM CUSTÓDIA PREVENTIVA. PRETENDIDA SUBSTITUIÇÃO POR RECOLHIMENTO DOMICILIAR. ART. 318, INCISO II, DO CPP. EXTREMA DEBILIDADE NO ESTADO DE SAÚDE DO RÉU E IMPOSSIBILIDADE DE RECEBER TRATAMENTO MÉDICO NO ESTABELECIMENTO PRISIONAL. FALTA DE COMPROVAÇÃO. COAÇÃO ILEGAL NÃO DEMONSTRADA. WRIT NÃO CONHECIDO. [...] Não comprovada a extrema debilidade do recluso ou a gravidade da doença e, asseguradas todas as garantias para que sejam atendidas suas necessidades de saúde dentro do estabelecimento prisional, inviável o deferimento da prisão domiciliar, especialmente em se considerando a gravidade dos delitos pelos quais já foi, inclusive, pronunciado. [-] Habeas corpus não conhecido. (STJ - HC 389.009/TO, Rel. Ministro JORGE MUSSI, QUINTA TURMA, julgado em 13/06/2017, DJe 22/06/2017) É dizer, se nem mesmo à pessoa que já está acometida de doença grave cabe reconhecer direito automático ao cumprimento da pena em domicílio, parece que, mesmo diante do conteúdo da Recomendação nº 62/2020, é dever dos magistrados brasileiros aferir em cada situação a conveniência de concessão do direito à prisão domiciliar, segundo a verificação de tratar-se o interessado de pessoa presa em estabelecimentos penais com ocupação superior à capacidade, que não disponham de equipe de saúde lotada no estabelecimento, sob ordem de interdição, com medidas cautelares determinadas por órgão de sistema de jurisdição internacional, ou que disponham de instalações que favoreçam a propagação do novo coronavírus, como, aliás, estabelece o seu artigo 5º, inciso I, letra b. E é natural que seja assim. O Superior Tribunal de Justiça, ao julgar o HC nº 568.693/ES (no qual figura como impetrante/requerente a Defensoria Pública do Estado do Espírito Santo), em 14.10.2020, da Relatoria do i. Min. SEBASTIÃO REIS JÚNIOR, observou que, conforme asseverado pela requerente, o quadro fático apresentado pelo Espírito Santo é idêntico ao dos demais Estados brasileiros: o risco de contágio pela pandemia do coronavírus (Covid-19) é semelhante em todo o país, assim como o é o quadro de superlotação e de insalubridade dos presídios brasileiros. E a horizontalidade do risco de contágio também foi mencionada em decisão monocrática da lavra do i. Des. ALBERTO ANDERSON FILHO, deste Tribunal de Justiça, exarada no mesmo 1º de abril no Habeas Corpus nº Processo nº 2061058-72.2020.8.26.0000, na qual o i. Magistrado observou que na pandemia que vivenciamos, muito embora existam pessoas com maior propensão a contrair a enfermidade causada por esse agente patogênico, em razão da idade e/ou deficiência imunológica preexistente, todos os habitantes do planeta estão em tese sujeitos a ter contato com ele e eventualmente adoecer. Assim se expressou o i. Desembargador: Dos cerca de 7.780.000.000 de habitantes do Planeta Terra, apenas 3 (três): ANDREW MORGAN, OLEG SKRIPOCKA e JESSICA MEIER, ocupantes da estação espacial internacional, o primeiro há 256 dias e os outros dois há 189 dias, portanto há mais de 6 meses, por ora não estão sujeitos à contaminação pelo famigerado CORONA VIRUS. Importante lembrar que os que estão há menos tempo fora do planeta, dele saíram em 25 de setembro de 2019, cerca de dois meses antes das notícias acerca da pandemia que se iniciou nas China. Portanto, à exceção de três pessoas, todas demais estão sujeitas a risco de contaminação, inclusive os que estavam na Estação Espacial Internacional e retornaram à terra no princípio de setembro de 2019. Inúmeras pessoas que vivem em situação que pode ser considerada privilegiada, tais como: o Príncipe Albert de Mônaco, o Príncipe Charles da Inglaterra, primeiro da ordem de sucessão ao trono, o Presidente do Senado Federal Davi Alcolumbre etc. foram contaminados e estão em tratamento. Lembre-se também das pessoas que, para o bem de inúmeras outras, ficam expostas a evidente e sério risco e mesmo com equipamentos de proteção (roupas, luvas, máscaras etc.), rígidas regras de higiene e etc, são infectadas pelo COVID 19. Os dados ressaltados na decisão acima obrigam a que se destaque que a legislação sobre execução penal em vigor já contém previsões voltadas ao atendimento da saúde dos indivíduos que se encontram presos em razão da prática de crimes. Com efeito, a Lei de Execução Penal estabelece o direito à assistência à saúde, incluído, se necessário, atendimento médico (no próprio estabelecimento e, se o caso, em local diverso), como se verifica dos seguintes dispositivos: Art. 14. A assistência à saúde do preso e do internado de caráter preventivo e curativo, compreenderá atendimento médico, farmacêutico e odontológico. § 1º (Vetado). § 2º Quando o estabelecimento penal não estiver aparelhado para prover a assistência médica necessária, esta será prestada em outro local, mediante autorização da direção do estabelecimento. § 3º Será assegurado acompanhamento médico à mulher, principalmente no pré-natal e no pós-parto, extensivo ao recém-nascido. (Incluído pela Lei nº 11.942, de 2009) (...) Art. 40. Impõe-se a todas as autoridades o respeito à integridade física e moral dos condenados e dos presos provisórios. (...) Art. 43. É garantida a liberdade de contratar médico de confiança pessoal do internado ou do submetido a tratamento ambulatorial, por seus familiares ou dependentes, a fim de orientar e acompanhar o tratamento. Parágrafo único. As divergências entre o médico oficial e o particular serão resolvidas pelo Juiz da execução. (...) Art. 120. Os condenados que cumprem pena em regime fechado ou semi-aberto e os presos provisórios poderão obter permissão para sair do estabelecimento, mediante escolta, quando ocorrer um dos seguintes fatos: I - falecimento ou doença grave do cônjuge, companheira, ascendente, descendente ou irmão; II - necessidade de tratamento médico (parágrafo único do artigo 14). Desse modo, apenas diante do risco que, repita-se, é horizontal de que possam contrair a Covid-19, parece prematuro concluir sobre se a soltura dos acusados pela prática de crime é conveniente para eles próprios e para os demais membros da coletividade, sem que se deva constatar, a priori, a impossibilidade da tomada de outras medidas de prevenção contra o contágio pelas autoridades incumbidas da administração dos estabelecimentos prisionais. E isso, levando-se em conta que a superlotação desses estabelecimentos no país, embora constitua problema real e bem conhecido, não afeta de modo uniforme todos os estabelecimentos, em todos os Estados, em muitos deles havendo enfermaria para atendimento de casos não graves e espaço suficiente a permitir o convívio em níveis de distanciamento não muito diversos daqueles a que estão sujeitos os habitantes das grandes cidades, hoje segregados por recomendação dos governos e entidades responsáveis pela saúde pública. De fato, em que pese a superlotação em presídios, impende considerar outro dado não menos relevante sobre a realidade socioeconômica do Brasil, que não pode ser simplesmente ignorado na abordagem da questão das pessoas que se encontram presas. Qualquer um que consulte os dados oficiais doInstituto Brasileiro de Geografia e Estatística(IBGE) resultantes do trabalho de coleta do Censo de 2010, encontrará que naquele ano foi constatado que cerca de 11,4 milhões de pessoas (6% da população do país) viviam em aglomerados subnormais. Com o censo, o identificou a existência de 6.329 favelas no Brasil, distribuídas em 323 dos 5.565municípios brasileiros. O conceito de aglomerado subnormal (que o IBGE passou a utilizar em 2010 em substituição a Zonas Especiais de Interesse Social) compreende todo e qualquer conjunto constituído por no mínimo 51 unidades habitacionais (barracos,casas etc.) em terrenos de propriedade alheia (pública ou particular), disposto de forma densa e desordenada (com média de ocupação individual maior que a das habitações normais...), tendo como característica comum a carência deserviços públicos essenciais. Ora, todo brasileiro com conhecimento mínimo da realidade nacional sabe como são diminutas e precárias as moradias das favelas (ou comunidades). Sabe, também, que esse contingente de mais de onze milhões de brasileiros (mais de dez vezes superior ao total de indivíduos presos em estabelecimentos penitenciários em todo o país) não se encontra em condições de observar com rigor as recomendações das entidades de saúde pública sobre isolamento e restrição de contatos sociais. Não é sem razão, aliás, que o governo federal editou, igualmente em 1º de abril, a Portaria (conjunta) nº 54, visando Aprovar recomendações gerais aos gestores e trabalhadores do Sistema Único de Assistência Social (SUAS) dos Estados, Municípios e do Distrito Federal com o objetivo de garantir a continuidade da oferta de serviços e atividades essenciais da Assistência Social (art. 1º), considerando a disseminação do novo coronavírus (COVID-19) e sua classificação mundial como pandemia e... a importância de o Estado brasileiro garantir a oferta regular de serviços e programas socioassistenciais voltados à população mais vulnerável e em risco social e promover a integração necessária entre o Sistema Único de Assistência Social e o Sistema Único de Saúde. Daí que, mesmo desprezando-se todos os óbices legais já mencionados, mas levando-se em conta que as autoridades públicas têm recomendado aos cidadãos que se mantenham resguardados em suas casas e procurem atendimento especializado somente quando presentes alguns dos sintomas da enfermidade causada pela Covid-19, parece prematuro estimar como positivo o impacto na disseminação da doença que decorreria da concessão sistemática a presos condenados do benefício da prisão domiciliar. Afinal, se os índices de reincidência criminal no país se aproximam dos 70%, como alguns ii. Presidentes do Conselho Nacional de Justiça têm destacado nos últimos anos, é indispensável obtemperar que a soltura indiscriminada de presos assintomáticos, que se encontram em presídios onde há enfermarias e possibilidade de isolamento daqueles que apresentem sintomas iniciais de gripe, poderia implicar em agravamento do gravíssimo problema da segurança pública no país, que há anos figura no grupo dos países com os maiores índices de criminalidade do planeta. E ao argumento de que a questão da segurança pública não é prioritária, senão exclusivamente a humanitária, haveria que responder-se, então, que a recomendação adequada seria no sentido da soltura de todos os presos, inclusive aqueles que cumprem penas longas por crimes graves e gravíssimos, cujo risco de contágio obviamente não é diverso do que afeta os demais. O site da UOL/FOLHA publicou no dia 23 de abril de 2020, em matéria intitulada Contêiner para presos doentes vira risco de nova derrota para Moro, que ao menos dois presos já morreram de coronavírus. E 30 mil foram liberados das cadeias. Há 59 casos de Covid-19, além de outros 141 suspeitos de terem a doença. Assim, supondo-se que todas as pessoas mencionadas na matéria efetivamente tenham contraído a enfermidade e, ainda, que é correta a cifra amplamente divulgada pelos meios de comunicação sobre ter o Brasil atualmente 770 mil pessoas encarceradas, há que concluir-se que a taxa de contaminação dos condenados pela prática de crime no país é de 0,0262337662337662%, é dizer, vinte e seis milésimos do número total. Ocorre que o Ministério da Saúde do Brasil disponibilizou no mesmo dia 23 de abril a notícia de que o Brasil registra 45.757 casos confirmados de coronavírus e 2.906 mortes. Dos 45.757 casos, 25.318 pessoas são consideradas recuperadas e outras 17.533 estão em acompanhamento. Então, se levado em conta que a população brasileira atual é de 210.147.125 pessoas (segundo estimativa do Instituto Brasileiro de Geografia e Estatística-IBGE, que pode ser consultada por qualquer pessoa que se disponha a fazê-lo), excluindo os cerca de 770 mil presos, constata-se que a taxa de contaminação da população que se encontra em liberdade é de 0,0218465639000774, ou seja, vinte e um milésimos sobre o número total, praticamente idêntica a da população carcerária. A partir daí, salvo melhor juízo, cai por terra toda a argumentação de cunho humanitarista voltada a justificar a necessidade de soltura das pessoas encarceradas em razão da prática de crimes em face do risco a que estariam expostos no cárcere, uma vez que a soltura delas, simplesmente, não significaria a redução desse risco, ao mesmo tempo que traria evidentes prejuízos à segurança pública, além de abalo à credibilidade do sistema de segurança pública do país, como resultado da inevitável queda da eficácia de sua função de controle da observância das leis penais. E tudo isto sem levar em conta, ainda, que o Brasil, ao contrário de outros países de nosso entorno geográfico e cultural (como, por exemplo, o México), não conta com um sistema minimamente eficaz de atenção e reparação às vítimas pelos danos ou prejuízos sofridos com a prática de crimes, as quais, além de haverem sofrido as consequências da prática dos crimes que ensejaram o encarceramento de brasileiros que tanto atraem a atenção da imprensa, mantêm-se expostas aos mesmos riscos de contrair a Covid-19 e serem novamente vitimadas. Necessário anotar, ainda, que no âmbito do sistema prisional deste Estado de São Paulo, a Secretaria de Administração Penitenciária tem adotado diversas medidas para o combate da disseminação da Covid-19 junto à população carcerária, aos servidores públicos, e aos demais usuários do sistema prisional, tais como advogados, voluntários, visitantes e outros colaboradores. De acordo com o ofício encaminhado a Corregedoria Geral de Justiça pelo Sr. Secretário da SAP, Dr. Nivaldo César Restivo, em 8.4.2020, ainda não havia na ocasião registro de presos contaminados, sendo que as unidades prisionais estão orientadas a realizar a observação e identificação de custodiados que apresentem sintomas de gripe, inclusive com orientação à população carcerária quanto à necessidade da informação voluntária sobre a ocorrência dos sinais e sintomas, possibilitando assim, a identificação célere de enfermos. E em complementação a tais informações, em 13.5.2020, o Sr. Secretário acrescentou que, visando a redução do fluxo de pessoas nas Unidades Prisionais, notadamente de defensores, estamos ultimando detalhes para que os integrantes da Ordem dos Advogados do Brasil e da Defensoria Pública do Estado de São Paulo utilizem a ferramenta tecnológica que permita o atendimento virtual dos clientes. No que se refere aos cuidados à saúde, tem-se que o atendimento aos custodiados continua fazendo frente às necessidades. Em 154 Unidades temos, ao menos, um profissional de saúde pertencente aos quadros da Secretaria da Administração Penitenciária, para o pronto atendimento. Somam-se as equipes médicas resultantes de pactuação com 38 (trinta e oito) municípios por meio da Deliberação CIB-62/2012, as quais atendem 59 (cinquenta e nove) Unidades (podendo ser concomitantes com o atendimento de profissionais da SAP). Ainda assim, na ausência de equipe de saúde, o custodiado poderá ser atendido na rede pública local. De se anotar, ainda, que em 13.7.2020, o Sr. Secretário esclareceu ao Tribunal de Justiça que o Governo Estadual está promovendo testagem em massa (aplicação de Testes Rápidos) dos custodiados do sistema penitenciário, tendo sido constatado que a taxa de mortalidade aferida no mundo é de 4,55%, em São Paulo é de 4,8%, entre os presos, está na casa de 0,96% e entre os servidores 2,71%, índices muito abaixo da população em geral. (-) Do mesmo modo, a recuperação de enfermos beira os 55% no índice mundial, 60% no brasileiro e no sistema penitenciário paulista 80,67% para os servidores e 89,35% para os presos, numa clara indicação de acerto nas medidas até então adotadas. Assim as coisas, sem descuidar da Recomendação nº 62/2020, emitida pelo C. Conselho Nacional de Justiça, ante a ausência de demonstração pelo paciente de que se enquadra em grupo de risco (pessoas acima dos 60 anos e aquelas com doenças crônicas, como diabetes e doenças cardiovasculares, segundo informação oficial); de que padece de especial condição de vulnerabilidade no presídio em que se encontra; e, ainda, de que apresenta sintomas reais da enfermidade relativa à Covid-19 ou necessita por qualquer outra razão de cuidados médicos especiais vale consignar que não há nos autos qualquer relatório médico a respeito da saúde do paciente , não cabe reconhecer a seu favor a existência de cerceamento ilegal de seu direito de locomoção passível de ser sanado via deste Habeas Corpus. Nesse sentido, aliás, as seguintes e recentíssimas decisões dos Tribunais Superiores do país: INADEQUAÇÃO HABEAS CORPUS LIMINAR INDEFERIMENTO. A crise sanitária ocasionada pela covid-19 é insuficiente a levar ao acolhimento da providência pretendida. Embora o paciente seja idoso 69 anos de idade , não se tem notícia de casos confirmados ou de suspeita de infecção no estabelecimento prisional, nem se verifica estar acometido de qualquer doença preexistente que possa se agravar a partir do contágio. O Juízo, ao deixar de acolher o pedido, ressaltou a viabilidade de receber, na unidade prisional, atendimento médico necessário. Liminar indeferida. (STF - Habeas Corpus nº 184522-SP; rel. Marco Aurélio; Despacho de liminar; j. 07/05/2020). [Sumário e trechos da decisão (não há ementa)]: Pedido de urgência incidental. Reiteração do pleito de concessão da prisão domiciliar em favor da paciente. Alegação da necessidade de imediata adoção da referida substituição do regime prisional por se tratar a recorrente de pessoa maior de 75 anos, acometida de hipertensão arterial sistêmica e diabetes mellitus tipo 2, em razão de ser ela pertencente ao grupo de risco do Coronavírus, tanto pela idade, quanto pela doenças que a atingem. Conforme se verifica, todas as medidas foram tomadas no sentido de prevenção contra o COVID-19 no âmbito da unidade prisional onde se encontra a requerente, com indicativo de êxito, vez que até o momento não há qualquer registro 5 de contaminação pelo coronavírus entre a população carcerária, além dos cuidados adicionais a ela dirigidos, no tocante à sua particular fragilidade, de modo a não estar justificada qualquer alteração quanto às providências já concretizadas. Pedido indeferido. (STF - AgReg no Recurso Ordinário em Habeas Corpus nº 162.575-SC; rel. Edson Fachin; Decisão Monocrática; j. 03/04/2020). [Sumário e trechos da decisão (não há ementa)]: Ação Penal. Trata-se de reiteração do pleito de prisão domiciliar humanitária formulado em favor de N. M.. A defesa técnica do requerente torna a destacar a sua idade avançada e o estado de saúde. Acresce, ainda, o surgimento recente da pandemia de COVID-19, popularmente conhecido como coronavírus como fato a ensejar a colocação do requerente em prisão domiciliar, destacando que possui todas as características que o incluem no grupo de maior risco de mortalidade em caso de contágio. Verificada a adequação do ambiente prisional às recomendações expedidas pelas autoridades sanitárias à diminuição da curva de proliferação do coronavírus e do contágio que desencadeia a doença COVID-19, como ocorre na hipótese, não se constata a necessidade da adoção de medidas excepcionais na execução da reprimenda privativa de liberdade. Pedido indeferido. (STF - Ação Penal nº 996-DF; rel. Edson Fachin; Decisão Monocrática; j. 02/04/2020). AGRAVO REGIMENTAL EM HABEAS CORPUS. ORGANIZAÇÃO CRIMINOSA. CORRUPÇÃO ATIVA E PASSIVA. LAVAGEM DE DINHEIRO. AMEAÇA. SUPERAÇÃO DA SÚMULA N. 691 DO STF. IMPOSSIBILIDADE. PREVENTIVA. FUNDAMENTAÇÃO CONCRETA. ELEVADO RISCO À ORDEM PÚBLICA E À INVESTIGAÇÃO CRIMINAL. COVID-19. COMORBIDADES (DIABETES E HIPERTENSÃO). DISPONIBILIDADE DE TRATAMENTO AMBULATORIAL. RÉU ISOLADO. INSTALAÇÕES EM BOAS CONDIÇÕES FÍSICAS E HIGIÊNICAS. PRISÃO DOMICILIAR INDEFERIDA. AGRAVO REGIMENTAL NÃO PROVIDO. (...) 3. As prisões visaram interromper a atuação de organização criminosa (policiais civis e militares) voltada à prática de corrupção, ativa e passiva, ameaça e possível lavagem de dinheiro, sendo a participação do acusado (policial civil) fornecer informações privilegiadas e sigilosas aos demais integrantes. Há referência de 9 ameaças a outros integrantes das forças policiais que não compõem o grupo criminoso. 4. A Recomendação n. 62/2020 do Conselho Nacional de Justiça estipula medidas preventivas à propagação da infecção pelo novo coronavírus no âmbito dos sistemas de justiça penal e recomenda a reavaliação das prisões provisórias. No entanto, essa recomendação não reflete uma diretriz obrigatória no sentido de se ter de soltar, irrestritamente, todos aqueles que se encontram presos provisoriamente, mas sim, um elemento interpretativo a ser levado em consideração em cada caso concreto, tendo-se em conta o trazido aos autos pela parte interessada. 5. A Magistrada de primeira instância, atenta à Resolução n. 62/2020 do CNJ, destacou que a unidade prisional não está superlotada, tem boas condições físicas e de higiene. Foi determinado que o investigado permanecesse isolado e que a Corregedoria informasse a existência de eventual contaminação por Covid-19. 6. Segundo a avaliação do IML, as moléstias apresentadas pelo investigado diabetes e hipertensão são de tratamento ambulatorial com o uso contínuo de medicação, com consultas regulares ao médico assistente. 7. O quadro de momento, bem como as providências determinadas pelas autoridades competentes, permitem a manutenção da custódia do investigado. 8. Nos limites da cognição sumaríssima própria do pedido de superação da Súmula n. 691 do STF, não há como constatar flagrante ilegalidade que justifique a intervenção prematura desta Corte Superior, sob pena de indevido salto de instância. 9. Agravo regimental não provido. (STJ - AgRg no Habeas Corpus nº 569.076- MG; rel. Min. Rogerio Schietti Cruz; 6ªT; j. 12/05/2020). AGRAVO REGIMENTAL NO HABEAS CORPUS. FURTO QUALIFICADO. SÚMULA 691/STF. RESOLUÇÃO N. 62/CNJ E PANDEMIA DA COVID-19. NÃO CONFIGURADA SITUAÇÃO DE RISCO. FUNDAMENTAÇÃO CONCRETA. REITERAÇÃO DELITIVA. DECISÃO MANTIDA. AGRAVO IMPROVIDO. 1. Fundamentação com esteio na reiteração delitiva do agravante, pois foi preso em flagrante por furto e revelam os seus antecedentes, resumidas em quatorze (14) páginas, que possui inúmeras condenações pelas práticas de crimes similares, contra o patrimônio, além de ser ressaltado o fato de que está em livramento condicional, com comparecimento trimestral (o próximo para maio), voltando a delinquir quando em cumprimento de livramento condicional. 2. Quanto à Resolução 62 do CNJ, não se verifica a presença dos requisitos por ela disciplinados: a prisão não perdura por mais de 90 dias e não há prova suficiente no sentido de que o agravante está no grupo de risco, seja pela idade, seja por apresentar problemas de saúde que podem ser potencializados pela Covid19. 3. Não havendo ilegalidade para justificar a mitigação do enunciado da Súmula 691 do STF, o writ deve ser indeferido liminarmente. 4. Agravo regimental improvido. (STJ - AgRg no Habeas Corpus nº 571.125-SP; rel. Nefi Cordeiro; 6ªT; j. 05/05/2020) AGRAVO REGIMENTAL EM HABEAS CORPUS. IMPETRAÇÃO INDEFERIDA LIMINARMENTE. SÚMULA 691/STF. AUSÊNCIA DE PATENTE ILEGALIDADE. TRÁFICO ILÍCITO DE ENTORPECENTES. PRISÃO PREVENTIVA. FUNDAMENTAÇÃO. EXPRESSIVA QUANTIDADE E NOCIVIDADE DA DROGA APREENDIDA. NECESSIDADE DE ASSEGURAR A ORDEM PÚBLICA. COVID-19. RÉU NÃO INSERIDO NO GRUPO DE RISCO. AGRAVO REGIMENTAL IMPROVIDO. (...) 6. Não se desconhece o grave momento que estamos vivendo, diante da declaração pública da situação de pandemia pelo novo coronavírus, no dia 30 de janeiro de 2020, pela Organização Mundial de Saúde, que requer a adoção de medidas preventivas de saúde pública para evitar a sua propagação. 7. Todavia, essa relevante circunstância não tem o condão de permitir a revogação de todas as prisões cautelares. No presente caso, os documentos carreados aos autos não evidenciam que o agravante se encontra nas hipóteses previstas na Recomendação n. 62 do CNJ para fins de revogação da prisão preventiva, ou concessão da prisão domiciliar, pois não demonstrou estar inserido no grupo de risco. 8. Agravo regimental improvido. (STJ - AgRg no Habeas Corpus nº 577.330-SP; rel. Reynaldo Soares da Fonseca; Acórdão; 5ª T; j. 19/05/2020; e, no mesmo sentido: HABEAS CORPUS nºs 575315-SP, Rel. Min. REYNALDO SOARES DA FONSECA, em 24.4.2020, publ. em 28.4.2020 e 567.408-RJ, Rel. Min. ROGERIO SCHIETTI CRUZ, em 20.3.2020, publ. em 23.3.2020). Por último, não aproveita ainda a ANDERSON a decisão monocrática proferida em 17.12.2020 pelo i. Ministro EDSON FACHIN, do Supremo Tribunal Federal, nos autos do Habeas Corpus nº 188820, deferindo liminar com excepcional efeito coletivo para beneficiar acusados presos com a liberdade provisória ou sentenciados em regime semiaberto com o aberto domiciliar (mediante antecipação da progressão), nos seguintes termos [sem destaque no original]: Ante o exposto, diante da persistência agravada do quadro pandêmico da emergência sanitária decorrente da Covid-19, presentes a plausibilidade jurídica do pedido e o perigo de lesão irreparável ou de difícil reparação a direitos fundamentais das pessoas levadas ao cárcere, para fins da efetividade da Recomendação nº 62/2020 do CNJ, observado o contido no art. 5º-A nela incluído pela Recomendação n.º 78/2020, DEFIRO, em parte, a medida liminar, ad referendum da Segunda Turma, nos termos seguintes termos: Quanto à progressão antecipada da pena: DETERMINAR que os juízes de execução penal do País, de ofício ou mediante requerimento das partes, desde que presentes os requisitos subjetivos (art. 112, § 1º, da LEP), concedam progressão antecipada da pena aos condenados que estejam no regime semiaberto para o regime aberto em prisão domiciliar e que, cumulativamente, atendam aos seguintes requisitos: i) estejam em presídios com ocupação acima da capacidade física; ii) comprovem, mediante documentação médica, pertencer a um grupo de risco para a Covid-19 conforme contido no art. 2º, § 3º, da Portaria Interministerial n.º 7, de 18 de março de 2020; iii) cumpram penas por crimes praticados sem violência ou grave ameaça à pessoa, exceto os delitos citados no art. 5º-A da Recomendação n. 62/2020 do CNJ (incluído pela Recomendação n. 78/2020 do CNJ); iv) faltem 120 (cento e vinte) dias para completar o requisito objetivo para a progressão do regime semiaberto para o aberto (art. 112 e parágrafos da LEP). As condições do regime aberto em prisão domiciliar serão fixadas pelo juízo da execução penal respectivo. Na apreciação dos processos individuais, não obstante, o juízo competente, caso entenda adequado, poderá deixar de conceder ao condenado em cumprimento de pena em regime semiaberto a progressão antecipada para o aberto em prisão domiciliar, caso objetivamente presentes as seguintes hipóteses cumulativas: 1) ausência de registro de caso de Covid-19 no estabelecimento prisional respectivo; 2) adoção de medidas de preventivas ao novo coronavírus pelo presídio; 3) existência de atendimento médico adequado no estabelecimento prisional. Alternativamente, o juízo competente, na apreciação dos processos individuais, poderá deixar de conceder a progressão ao regime aberto em prisão domiciliar, caso presentes situações excepcionalíssimas que demonstrem objetivamente a ausência de risco concreto e objetivo à saúde do detento na hipótese de sua manutenção no cárcere e que o regime aberto em prisão domiciliar, ainda que com monitoração eletrônica, mostra-se manifestamente inadequado ao caso concreto e causa demasiado risco à segurança pública. Quanto à prisão domiciliar e à liberdade provisória: DETERMINAR que os juízes singulares e os Tribunais do País quando emissores da ordem de prisão cautelar, de ofício ou mediante requerimento das partes, concedam prisão domiciliar ou liberdade provisória, ainda que cumuladas com medidas diversas da segregação (art. 319 do CPP), a presos que, cumulativamente, atendam aos seguintes requisitos: i) estejam em presídios com ocupação acima da capacidade física; ii) comprovem, mediante documentação médica, pertencer a um grupo de risco para a Covid-19 conforme contido no art. 2º, § 3º, da Portaria Interministerial n.º 7, de 18 de março de 2020; iii) não estejam presos por crimes praticados sem violência ou grave ameaça, exceto os delitos citados no art. 5º-A da Recomendação n. 62/2020 do CNJ (incluído pela Recomendação n. 78/2020 do CNJ). As condições da prisão domiciliar e da liberdade provisória, inclusive, a eventual cumulação de medidas cautelares diversas da prisão (art. 319 do CPP), serão definidas pelos juízos de origem ou Tribunais quando emissores da ordem de prisão. Na apreciação dos processos individuais, não obstante, o juízo competente, caso entenda adequado, poderá deixar de conceder a prisão domiciliar ou a liberdade provisória, caso objetivamente presentes as seguintes hipóteses cumulativas: 1) ausência de registro de caso de Covid-19 no estabelecimento prisional respectivo; 2) adoção de medidas de preventivas ao novo coronavírus pelo presídio; 3) existência de atendimento médico no estabelecimento prisional. Alternativamente, o juízo competente, na apreciação dos processos individuais, poderá deixar de conceder prisão domiciliar ou liberdade provisória, caso presentes situações excepcionalíssimas que demonstrem objetivamente a ausência de risco concreto e objetivo à saúde do detento na hipótese de sua manutenção no cárcere e que a soltura, mesmo com imposição de medidas cautelares diversas à prisão (art. 319 do CPP), mostra-se manifestamente inadequada ao caso concreto e causa demasiado risco à segurança pública. Como já mencionado, a Secretaria de Administração Penitenciária do Estado de São Paulo, e certamente no presídio onde o paciente está recolhido, tem seguido rígidos protocolos de segurança sanitária para controle e redução dos riscos de contaminação pelo coronavírus. À luz desses elementos de convicção, não se constata a coação ilegal propalado na petição inicial. Esta é a convicção deste Relator acerca do direito reclamado, extraída com a independência e imparcialidade que decorrem da ordem constitucional vigente (artigos 5º, LV, e 95, I, II, III, da CF/88) e dos tratados internacionais relativos à matéria firmados pelo Brasil. Processe-se, com requisição de urgentes informações à d. Autoridade Judicial apontada como coatora. Com as informações, abra-se vista à Procuradoria de Habeas Corpus para manifestação, tornando os autos conclusos ao juiz natural, oportunamente. OTAVIO ROCHA Desembargador em Plantão Judiciário</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        06/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+            <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=5" name="M" cddocumento="5">
+                <img src="/cposg/imagens/doc2.gif" width="16" height="16" border="0"></a>
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+                <a class="linkMovVincProc" title="Visualizar documento em inteiro teor" href="#?cdDocumento=5" name="M" cddocumento="5">
+                    Conclusos para o Relator (Expedido Termo com Conclusão)
+                </a>
+            
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">OTAVIO ROCHA</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        06/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Distribuição por Competência Exclusiva
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">Motivo: Prevenção pelo Habeas Corpus 2000589-26.2021.8.26.0000
+Órgão Julgador: 1313 - Plantão Judicial - Criminal
+Relator: 14900 - Otavio Rocha</span>
+
+        
+    </td>
+</tr>
+<tr class="fundoEscuro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        06/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Processo encaminhado para a Distribuição de Originários
+            
+        
+
+        
+
+        <br><span style="font-style: italic;"></span>
+
+        
+    </td>
+</tr>
+<tr class="fundoClaro movimentacaoProcesso" style="">
+<td width="120" style="vertical-align: top" class="dataMovimentacaoProcesso">
+        06/01/2021
+    </td>
+    <td width="20" valign="top" aria-hidden="true">
+        
+    </td>
+    <td style="vertical-align: top; padding-bottom: 5px" class="descricaoMovimentacaoProcesso">
+        
+
+        
+            
+            
+                Processo Cadastrado
+            
+        
+
+        
+
+        <br><span style="font-style: italic;">SJ 1.2.6.1 - Serv. de Entrada e Distrib. de Feitos Originários de Dir. Criminal</span>
+
+        
+    </td>
+</tr>
+</tbody>
+</table>
+<div id="divLinksTituloBlocoMovimentacoes" style="text-align:right">
+		
+
+
+
+
+
+
+
+<input id="mensagemNaoExibidamovimentacoes" type="hidden" value=""><input id="linkNaoExibidomovimentacoes" type="hidden" value="Recolher"><span id="mensagensExibindomovimentacoes" class="mensagemExibindo">
+
+</span>  
+<a id="linkmovimentacoes" href="javascript:" class="linkNaoSelecionado unj-link-collapse">
+    <span id="setasDireitamovimentacoes" class="setasDireita">
+        <i class="unj-link-collapse__icon glyph glyph-chevron-down"></i>
+    </span>
+    Mais</a>
+
+<script>
+	$(function() {
+		var controlarLink = function() {
+			var $linkNaoExibido = $('input#linkNaoExibidomovimentacoes');
+			var conteudoLinkNaoApresentado = $linkNaoExibido.val();
+			var $link = $('a#linkmovimentacoes');
+
+			$linkNaoExibido.val($link.html());
+			$link.html(conteudoLinkNaoApresentado);
+		};
+
+		var controlarMensagem = function() {
+			var $mensagemNaoExibida = $('input#mensagemNaoExibidamovimentacoes');
+			var $spanMensagem = $('span#mensagensExibindomovimentacoes');
+			var mensagemExibida = $spanMensagem.html();
+			var mensagemNaoExibida = $mensagemNaoExibida.val();
+
+			$spanMensagem.html(mensagemNaoExibida);
+			$mensagemNaoExibida.val(mensagemExibida);
+		};
+
+		var controlarMensagemLink = function() {
+			controlarMensagem();
+			controlarLink();
+		};
+
+		var esconderElementosExtrasMostrarDefault = function() {
+			$('#tabelaTodasMovimentacoes').hide();
+			$('#tabelaUltimasMovimentacoes').show();
+		};
+
+		var mostrarElementosExtrasEsconderDefault = function() {
+			$('#tabelaUltimasMovimentacoes').hide();
+			$('#tabelaTodasMovimentacoes').show();
+		};
+
+		var initPagina = function() {
+            var setasDireita = '<span id="setasDireitamovimentacoes" class="setasDireita"><i class="unj-link-collapse__icon glyph glyph-chevron-up"></i></span>';
+			var $linkEscondido = $('input#linkNaoExibidomovimentacoes');
+			$linkEscondido.val(setasDireita+$linkEscondido.val());
+		};
+
+		var bindLink = function() {
+			var $link = $('a#linkmovimentacoes');
+			$link.funcToggle('click', mostrarElementosExtrasEsconderDefault, esconderElementosExtrasMostrarDefault);
+			$link.bind('click', controlarMensagemLink);
+		};
+
+		initPagina();
+		bindLink();
+		esconderElementosExtrasMostrarDefault();
+	});
+</script>
+</div>
+
+			  	
+
+			  	
+
+			  	
+			  	
+			  	
+			
+	  	
+			
+				
+				
+			  	
+
+				
+		  			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<div style="padding-top: 10px;">
+	
+	
+		
+		
+			<h2 class="subtitle">Subprocessos e Recursos</h2>
+		
+	
+</div>
+<table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1"><tr>
+<td colspan="3" align="left" id="processoSemIncidentes">
+			 	
+			 		
+			 			Não há subprocessos ou recursos vinculados a este processo.
+			 		
+			 		
+			 	
+			  </td> 
+		    </tr></table>
+<!--  incidentes --><div style="padding-top: 10px;">
+	
+	
+		
+		
+			<h2 class="subtitle">Petições diversas</h2>
+		
+	
+</div>
+<!--  Tabela de petições diversas -->
+<table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1">
+<thead>
+<tr class="label">
+<th width="140" style="text-align:left">Data</th>
+			      <th width="*">Tipo</th>
+			    </tr>
+<tr class="fundoEscuro" height="2" aria-hidden="true">
+<td></td>
+					<td></td>
+				</tr>
+</thead>
+<tbody><tr class="fundoClaro">
+<td width="140" style="text-align:left">
+							16/03/2021
+						</td>
+						<td width="*">
+							Parecer da PGJ<br>
+</td>
+					</tr></tbody>
+</table>
+<!--  Tabela de petições diversas --><div style="padding-top: 10px;">
+	
+	
+		
+		
+			<h2 class="subtitle">Composição do Julgamento</h2>
+		
+	
+</div>
+	
+	<table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1">
+<tr class="label">
+<td width="140">Participação</td>
+		  <td>Magistrado</td>
+		</tr>
+<tr class="fundoEscuro" height="2">
+<td></td>
+			<td></td>
+		</tr>
+</table>
+<table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1">
+<tr class="fundoClaro itemComposicaoJulgamento">
+<td valign="top" width="140" class="label" style="padding-bottom: 5px">
+		      Relator
+			</td>
+			<td valign="top" style="padding-bottom: 5px">
+		      Amaro Thomé (27265)
+		    </td>
+		  </tr>
+<tr class="fundoEscuro itemComposicaoJulgamento">
+<td valign="top" width="140" class="label" style="padding-bottom: 5px">
+		      2º 
+			</td>
+			<td valign="top" style="padding-bottom: 5px">
+		      Luiz Fernando Vaggione 
+		    </td>
+		  </tr>
+<tr class="fundoClaro itemComposicaoJulgamento">
+<td valign="top" width="140" class="label" style="padding-bottom: 5px">
+		      3º 
+			</td>
+			<td valign="top" style="padding-bottom: 5px">
+		      Francisco Orlando 
+		    </td>
+		  </tr>
+</table>
+<div style="padding-top: 10px;">
+	
+	
+		
+		
+			<h2 class="subtitle">Julgamentos</h2>
+		
+	
+</div>
+<table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1">
+<tr class="label">
+<td align="left" valign="top" width="150">Data</td>
+		<td align="left" valign="top" width="220">Situação do julgamento</td>
+		<td align="left" valign="top" width="*">Decisão</td>
+	  </tr>
+<tr class="fundoEscuro" height="2">
+<td></td>
+		<td></td>
+		<td></td>
+	  </tr>
+</table>
+<table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1"><tr class="fundoClaro">
+<td valign="top" align="left" width="150">
+		      18/03/2021
+			</td>
+			<td align="left" valign="top" width="220">
+		      Julgado
+		    </td>
+			<td align="left" valign="top" width="*">
+		      Denegaram a ordem. V. U.
+		    </td>
+		  </tr></table>
+<br><br><footer><nav class="navbar__footer"><div class="navbar__footer__container">
+
+            <ul class="navbar__footer__list-brand">
+<li class="navbar__footer__list-brand__item">
+                    <a href="https://www.softplan.com.br/solucoes/saj-tribunais/" class="navbar__footer__list-brand__item__link link_softplan_tribunais">
+                        <img src="https://esaj.tjsp.jus.br/esaj/img/brand/icon-saj.png" alt="SAJ"></a>
+                </li>
+                <li class="navbar__footer__list-brand__item">
+                    <a href="https://www.softplan.com.br/" class="navbar__footer__list-brand__item__link link_softplan">
+                        <img src="https://esaj.tjsp.jus.br/esaj/img/brand/icon-softplan.png" alt="Softplan"></a>
+                </li>
+            </ul>
+<ul class="navbar__footer__list-actions"></ul>
+</div>
+    </nav></footer>
+</div>
+	
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"b61bdf610d","agent":"","beacon":"bam.nr-data.net","applicationTime":104,"applicationID":"218539834","transactionName":"MlZRN0QECkMAVERZDgscYBdEEBBDIFREWQ4LHFERGAYLXU9EX1YVFV9SDRgWBVpPVEBfEgIdQBdEEBBDT1ZTRAgKXR0wUwQWUwl2U0QICl0=","queueTime":0}</script>
+</body>
+</html>
